@@ -1,0 +1,153 @@
+# Copyright (C) 2017 Bulk Price Converter for WooCommerce
+# This file is distributed under the same license as the Bulk Price Converter for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk Price Converter for WooCommerce 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bulk-price-"
+"converter-for-woocommerce\n"
+"POT-Creation-Date: 2017-02-14 21:36:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: bulk-price-converter-for-woocommerce.php:81
+msgid "Settings"
+msgstr ""
+
+#: bulk-price-converter-for-woocommerce.php:82
+msgid "Unlock all"
+msgstr ""
+
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:20
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:32
+msgid "Bulk Price Converter Options"
+msgstr ""
+
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:37
+msgid "WooCommerce Bulk Price Converter"
+msgstr ""
+
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:38
+msgid "Enable"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Bulk Price Converter for WooCommerce 1.1.0)  #-#-#-#-#
+#. Description of the plugin/theme
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:39
+msgid "Bulk Price Converter for WooCommerce."
+msgstr ""
+
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:45
+#: includes/admin/class-alg-wc-bulk-price-converter-settings-general.php:49
+#: includes/class-alg-wc-bulk-price-converter.php:32
+#: includes/class-alg-wc-bulk-price-converter.php:80
+msgid "Bulk Price Converter Tool"
+msgstr ""
+
+#: includes/admin/class-wc-settings-bulk-price-converter.php:20
+#: includes/class-alg-wc-bulk-price-converter.php:33
+msgid "Bulk Price Converter"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:55
+msgid "Multiply value must be above zero."
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:62
+msgid "Prices changed successfully!"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:85
+msgid "Multiply all product prices by"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:90
+msgid "Price type to modify"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:92
+msgid "Both"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:94
+msgid "Sale prices only"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:96
+msgid "Regular prices only"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:102
+msgid "Products category"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:104
+msgid "Any"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:106
+msgid "None"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:107
+#: includes/class-alg-wc-bulk-price-converter.php:116
+msgid "You will need %s to change this value."
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:112
+msgid "\"Pretty prices\" threshold"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:115
+msgid "Leave zero to disable."
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:119
+msgid "Preview Prices"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:124
+msgid "Change Prices"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:186
+msgid "Product"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:187
+msgid "Categories"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:188
+msgid "Price Type"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:189
+msgid "Original Price"
+msgstr ""
+
+#: includes/class-alg-wc-bulk-price-converter.php:190
+msgid "Modified Price"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Bulk Price Converter for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://coder.fm/item/bulk-price-converter-for-woocommerce-plugin/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Algoritmika Ltd"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.algoritmika.com"
+msgstr ""

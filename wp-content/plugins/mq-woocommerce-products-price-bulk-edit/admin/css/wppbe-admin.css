@@ -1,0 +1,64 @@
+body{ background: #eaeaea !important; font-family: calibri, tahoma; } .clear{ clear: both; }
+.table-striped>tbody>tr:nth-of-type(odd){ background-color: rgba(0,0,0,0) !important; }
+.update-nag{ display: none !important; }
+
+#wpcontent{ padding-left: 0 !important; }
+.wppbe_options_cats{ background: #585f65; min-height: 70px; padding-left: 5px; position: relative; }
+.wppbe_options_cats_content{ padding-top: 18px; padding-left: 0 !important; padding-right: 30px; color: #fff; }
+.wppbe_options_cats_title p{  padding-top: 22px; text-align: right; color: #d4d5d5; font-weight: 700; font: 16px calibri; }
+.wppbe_options_cats_content .single_cat{ padding: 6px 11px; padding-right: 9px; background: #e4e4e4; color: rgba(0,0,0,0.6); border-radius: 15px; font-size: 13px; margin-left: 6px; margin-bottom: 6px; display: inline-block; }
+.wppbe_options_cats_content .single_cat:first-child{ margin-left: 0; } .select_cat{ color: #52f352; font: 14px calibri; padding-left: 8px; position: relative; margin-left: 10px; cursor: pointer; }
+.select_cat span{ font-size: 20px;position: absolute;left: -6px;top: -4px; }
+.row{ margin-right: 0 !important; } .single_cat_close{ cursor: pointer; float: right; font-size: 14px; padding-left: 4px; }
+.single_cat .glyphicon{ top: 2px; } .modify_cat{ display: inline-block; padding-left: 22px; margin-left: 15px; } .remove_cats{ display: inline-block; margin-left: 18px !important; color: #fdb4b4; }
+.remove_cats span{ font-size: 13px; top: 2px; } .deactive-options{ height: 100%; position: absolute !important; z-index: 999; display: none; }
+.product-search-box input{ height: 45px; font-size: 18px; background: #b0b1b1; border: none; }
+::-webkit-input-placeholder{ color: #515355 !important; } :-moz-placeholder{ color: #515355 !important; } ::-moz-placeholder{ color: #515355 !important; } :-ms-input-placeholder{ color: #515355 !important; }
+.product-search-box .input-group-addon{ height: 44px !important; min-height: 36px !important; background-color: #585f65; color: #fff; font-size: 21px; top: 0; border: none; }
+
+table.variations{ margin: 0 auto; }
+.disabled-input, .disabled-btn{ background: #eceaea !important; opacity: 0.4; pointer-events: none; cursor: default; }
+#wpbe_products_options .category_checkbox{ border-radius: 4px; margin-top: 0; margin-right: 3px; }
+.wppbe_products_result h3{ margin-top: 4px; }
+
+/*More Options*/
+#more-options{ position: absolute; bottom: -20px; left: 30px; padding: 2px 10px; background: #0073aa; color: #fff; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; font: 14px calibri; cursor: pointer; }
+#more-options span{ float: right; margin-left: 5px; } .more-options{ display: none; }
+
+/*Product's Table*/
+.wppbe_products_result table td, .wppbe_products_result table th{ border: 1px solid #bbbaba; } .wppbe_products_result table td{ vertical-align: middle !important; }
+.pr_title_price_td input{ width: 100%; border: 1px solid #969494; border-radius: 3px; background: #fdfdfd; }
+.wppbe_products_result .pr_thumb_td img{ border: 1px solid #b7b7b7; border-radius: 3px; width: 65px; height: 65px; }
+.wppbe_products_result table th{ border-top: 1px solid #bbbaba !important; background: #d8d7d7; text-align: center; height: 35px; color: #414040; }
+.wppbe_products_result .pr_summary_td{ text-align: center; padding: 5px; max-width: 150px; }
+.wppbe_psummary_span{ padding: 2px 5px; margin: 5px 0 5px 5px; border-radius: 5px; font-size: 13px; display: inline-block; text-transform: capitalize; font-family: calibri; font-weight: 700; } .wppbe_psummary_span.onsale_span{ background: #73defc; }
+.wppbe_psummary_span.instock_span{ background: #a1fa51; } .wppbe_psummary_span.ptype_simple_span{ background: #ffff00; }
+.wppbe_psummary_span.outofstock_span{ background: #ff2121; color: #fff; animation: blink 2s linear infinite; }
+.wppbe_psummary_span.ptype_variable_span{ background: #fc6262; color: #fff; }
+.wppbe_products_result .pr_prices_td{ padding: 5px; } td.pr_prices_td input{ width: 90px; text-align: center; border-radius: 3px; border: 1px solid #828282; background-color: #ebebeb; }
+.pr_prices_td table{ margin: 0 auto; border-spacing: 2px; border-collapse: separate; margin-bottom: 10px; } .pr_prices_td table td, .pr_prices_td table th{ border: none; }
+table.wppbe_variable_prices td{ font: 14px calibri; font-weight: 700; text-align: center; padding: 2px 0; } table.wppbe_variable_prices td input{ font-weight: 400; }
+ins{ text-decoration: none; } .pr_controlls_td .btn{ width: 45%; } .pr_controlls_td{ text-align: center; } .pr_controlls_td .btn:first-child{ margin-right: 5px; }
+table.wppbe_variable_prices{ border-radius: 2px; width: 100%; margin: 0; }
+
+/*Animation*/
+@keyframes blink{ 50% { opacity: 0.5; } }
+
+/*Cats Modal*/
+.modal{ top: 15px !important; }
+#catsmodal .modal-body{ min-height: 210px; max-height: 400px; overflow-y: scroll; } .wpbe_single_cat{ margin-bottom: 10px; }
+.modal-body p{ font: 17px calibri; } .product-search-box{ padding: 30px 0; } .modal .btn{ font: 19px calibri, arial, tahoma; } .modal h4{ color:#333; }
+.close:hover{ opacity: 1; } #catsmodal .modal-footer{ margin-top: 0; text-align: center; padding: 11px; border-top: 0; } img.animated{ width: 109px; height: 109px; }
+.wpbe_single_cat label{ font-family: calibri; font-size: 15px; } .category-close-btn{ width: 180px !important; height: 38px; line-height: 10px !important; display: inline-block !important; }
+
+/*Delete Modal*/
+.close{ position:absolute; right:15px; top:15px; font-size: 17px; font-weight: bold; line-height: 1; opacity: .5; text-shadow:none; z-index:2; }
+#deleteModal p, #catsmodal p{ margin-top:10px; }
+#deleteModal, #deleteModal p, #catsmodal, #catsmodal p{ text-shadow:none!important; font-weight:normal; font-size:11pt; }
+#deleteModal, #deleteModal p{ color:#999999; } #catsmodal p{ color: #333; padding-left: 15px; line-height: 22px; margin-bottom: 20px; }
+#deleteModal h3, #catsmodal h3{ color:#4d4c49; font-size:16pt; text-shadow:none!important; margin: 5px 0 20px; font-weight:bold; }
+.vert-split{ border-right:1px solid #e5e5e5; }
+
+/*More Options Collapse*/
+#more-options-collapse p{ color: #fff; margin-bottom: 0; margin-top: 4px; }
+#more-options:hover{ text-decoration: none; } #more-options:focus{ text-decoration: none; }

@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Price Bulk Edit 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-19 01:13+0330\n"
+"PO-Revision-Date: 2016-11-19 01:13+0330\n"
+"Last-Translator: superadmin <info@zakrot.com>\n"
+"Language-Team: M Qanbari <m.qanbari@outlook.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/parts/admin-page-content.php:13
+msgid "SELECTED CATEGORIES:"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:17 includes/class-wppbe.php:493
+msgid "All Categories"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:18 includes/class-wppbe.php:492
+msgid "Select A Category to Filter"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:26
+msgid "Number of Results in A Page:"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:32 includes/class-wppbe.php:224
+#: includes/class-wppbe.php:228
+msgid "Update"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:38
+msgid "More Options"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:45
+msgid "Type Product Name To Search..."
+msgstr ""
+
+#: admin/parts/admin-page-content.php:48
+msgid "Please Type Product's Name You Want to Find Then Wait for Results"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:62
+msgid "Categories"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:63
+msgid ""
+"All Product's Categories Are Listed Here. if you Select Them And close this "
+"window, The List Will Updated And Showes Products with Categories of Your "
+"Selection. So Pick Categories Here to Filter The List"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:79
+msgid "Close"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:92
+msgid "Move to Trash"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:94
+msgid ""
+"This Option <b>Doesn't Delete The Product Entirely</b> and it Means You can "
+"see it in <b>Products Trash</b>. This Option is <b>Recomended</b>"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:96
+msgid "Trash"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:99
+msgid "Delete Permanently"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:101
+msgid ""
+"Use This Option with <b>Caution</b>. This Option <b>Deletes Selected Product "
+"Entirely</b>. It Means You <b>Can Not</b> See it in Trashes to Get it Back"
+msgstr ""
+
+#: admin/parts/admin-page-content.php:103 includes/class-wppbe.php:230
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wppbe.php:142 includes/class-wppbe.php:157
+msgid "Regular Price"
+msgstr ""
+
+#: includes/class-wppbe.php:146 includes/class-wppbe.php:158
+msgid "Sale Price"
+msgstr ""
+
+#: includes/class-wppbe.php:259
+msgid "Products"
+msgstr ""
+
+#: includes/class-wppbe.php:265
+msgid "Title"
+msgstr ""
+
+#: includes/class-wppbe.php:266
+msgid "Summary"
+msgstr ""
+
+#: includes/class-wppbe.php:267
+msgid "Prices"
+msgstr ""
+
+#: includes/class-wppbe.php:285
+msgid "No Products to Show"
+msgstr ""
+
+#: includes/class-wppbe.php:490
+msgid "Remove All"
+msgstr ""
+
+#: includes/class-wppbe.php:491
+msgid "Modify Selected Categories"
+msgstr ""
+
+#: includes/class-wppbe.php:494
+msgid "Regular Price can not be empty"
+msgstr ""
+
+#: includes/class-wppbe.php:495
+msgid ""
+"Sales Price should be lower than Regular Price. Your change will not Save"
+msgstr ""
+
+#: includes/class-wppbe.php:496
+msgid "Values Are Not Valid!"
+msgstr ""
+
+#: includes/class-wppbe.php:515
+msgid "WC Prices Bulk Edit"
+msgstr ""
+
+#: includes/class-wppbe.php:516
+msgid "Price Bulk Edit"
+msgstr ""
+
+#~ msgid "Woocommerce Products Price Bulk Edit"
+#~ msgstr "ویرایش یکجای محصولات ووکامرس"
+
+#~ msgid ""
+#~ "This Plugins Simplifies process of changing woocommerce products in a "
+#~ "woocommerce shop."
+#~ msgstr ""
+#~ "این پلاگین(افزونه) پروسه تغییر محصولات در ووکامرس را ساده تر می کند."
