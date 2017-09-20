@@ -1,0 +1,3139 @@
+Xendit Logs
+[02/14/2017 6:45 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[02/14/2017 6:45 AM] - SUCCESS :{
+    "id": "58a2a7a017a5a34f20a65e04",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_156",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2000000,
+    "billable_amount": 2000000,
+    "taxable_amount": 0,
+    "received_amount": 1980000,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #156 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58a2a79f404fa55755e35e8f",
+    "xendit_fee_amount": 20000,
+    "expiry_date": "2017-02-15T06:45:51.648Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470012",
+            "transfer_amount": 2000000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470098",
+            "transfer_amount": 2000000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[02/14/2017 6:46 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/14/2017 6:46 AM] - SUCCESS :{
+    "updated": "2017-02-14T06:45:55.879Z",
+    "created": "2017-02-14T06:45:52.035Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_156",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2000000,
+    "billable_amount": 2000000,
+    "taxable_amount": 0,
+    "received_amount": 1980000,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #156 at Xendit Development",
+    "xendit_fee_amount": 20000,
+    "adjusted_received_amount": 1980000,
+    "adjusted_xendit_fee_amount": 20000,
+    "paid_amount": 2000000,
+    "payment_method": "POOL",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "58a2a7a017a5a34f20a65e04"
+}
+[02/14/2017 6:46 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/14/2017 6:46 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[02/14/2017 6:46 AM] - SUCCESS :[Development] Order #156 now mark as complete with Xendit!
+[02/14/2017 6:51 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[02/14/2017 6:51 AM] - SUCCESS :{
+    "id": "58a2a90217a5a34f20a65e05",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_157",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2100000,
+    "billable_amount": 2100000,
+    "taxable_amount": 0,
+    "received_amount": 2079000,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #157 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58a2a902404fa55755e35e90",
+    "xendit_fee_amount": 21000,
+    "expiry_date": "2017-02-15T06:51:46.571Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470058",
+            "transfer_amount": 2100000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470067",
+            "transfer_amount": 2100000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[02/14/2017 6:56 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[02/14/2017 6:56 AM] - SUCCESS :{
+    "id": "58a2aa0217a5a34f20a65e06",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_158",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 12993,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #158 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58a2aa02404fa55755e35e91",
+    "xendit_fee_amount": 132,
+    "expiry_date": "2017-02-15T06:56:01.888Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12547,
+            "identity_amount": 578
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 12547,
+            "identity_amount": 578
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470071",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470077",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[02/15/2017 11:00 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/15/2017 11:00 AM] - SUCCESS :{
+    "updated": "2017-02-15T11:00:42.703Z",
+    "created": "2017-02-15T11:00:42.703Z",
+    "payment_id": "1487156442528",
+    "callback_virtual_account_id": "58a434ba39cc9e4a230d5a2b",
+    "owner_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "fixed-va-1487156410",
+    "account_number": "1001470126",
+    "bank_code": "MANDIRI",
+    "amount": 777777,
+    "transaction_timestamp": "2017-02-15T11:00:42.528Z",
+    "merchant_code": "88464",
+    "id": "58a434da1b6ce2a355f4606f"
+}
+[02/15/2017 11:00 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/15/2017 11:00 AM] - FAILURE :[Development] Xendit is , Proccess Order Declined!
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/15/2017 11:01 AM] - SUCCESS :{
+    "updated": "2017-02-15T11:00:42.703Z",
+    "created": "2017-02-15T11:00:42.703Z",
+    "payment_id": "1487156442528",
+    "callback_virtual_account_id": "58a434ba39cc9e4a230d5a2b",
+    "owner_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "fixed-va-1487156410",
+    "account_number": "1001470126",
+    "bank_code": "MANDIRI",
+    "amount": 777777,
+    "transaction_timestamp": "2017-02-15T11:00:42.528Z",
+    "merchant_code": "88464",
+    "id": "58a434da1b6ce2a355f4606f"
+}
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/15/2017 11:01 AM] - FAILURE :[Development] Xendit is , Proccess Order Declined!
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/15/2017 11:01 AM] - SUCCESS :{
+    "updated": "2017-02-15T11:00:42.703Z",
+    "created": "2017-02-15T11:00:42.703Z",
+    "payment_id": "1487156442528",
+    "callback_virtual_account_id": "58a434ba39cc9e4a230d5a2b",
+    "owner_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "fixed-va-1487156410",
+    "account_number": "1001470126",
+    "bank_code": "MANDIRI",
+    "amount": 777777,
+    "transaction_timestamp": "2017-02-15T11:00:42.528Z",
+    "merchant_code": "88464",
+    "id": "58a434da1b6ce2a355f4606f"
+}
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/15/2017 11:01 AM] - FAILURE :[Development] Xendit is , Proccess Order Declined!
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/15/2017 11:01 AM] - SUCCESS :{
+    "updated": "2017-02-15T11:00:42.703Z",
+    "created": "2017-02-15T11:00:42.703Z",
+    "payment_id": "1487156442528",
+    "callback_virtual_account_id": "58a434ba39cc9e4a230d5a2b",
+    "owner_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "fixed-va-1487156410",
+    "account_number": "1001470126",
+    "bank_code": "MANDIRI",
+    "amount": 777777,
+    "transaction_timestamp": "2017-02-15T11:00:42.528Z",
+    "merchant_code": "88464",
+    "id": "58a434da1b6ce2a355f4606f"
+}
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/15/2017 11:01 AM] - FAILURE :[Development] Xendit is , Proccess Order Declined!
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/15/2017 11:01 AM] - SUCCESS :{
+    "updated": "2017-02-15T11:00:42.703Z",
+    "created": "2017-02-15T11:00:42.703Z",
+    "payment_id": "1487156442528",
+    "callback_virtual_account_id": "58a434ba39cc9e4a230d5a2b",
+    "owner_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "fixed-va-1487156410",
+    "account_number": "1001470126",
+    "bank_code": "MANDIRI",
+    "amount": 777777,
+    "transaction_timestamp": "2017-02-15T11:00:42.528Z",
+    "merchant_code": "88464",
+    "id": "58a434da1b6ce2a355f4606f"
+}
+[02/15/2017 11:01 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/15/2017 11:01 AM] - FAILURE :[Development] Xendit is , Proccess Order Declined!
+[02/22/2017 2:48 PM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/22/2017 2:48 PM] - SUCCESS :{
+    "updated": "2017-02-22T14:48:46.473Z",
+    "created": "2017-02-22T14:48:23.874Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "demo-1487774874491",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 25000,
+    "billable_amount": 25000,
+    "taxable_amount": 0,
+    "received_amount": 24750,
+    "payer_email": "sample_email@xendit.co",
+    "description": "Trip to Bali",
+    "xendit_fee_amount": 250,
+    "adjusted_received_amount": 24057,
+    "adjusted_xendit_fee_amount": 0,
+    "paid_amount": 24057,
+    "payment_method": "UNIQUE",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "58ada4b717a5a34f20a66201"
+}
+[02/22/2017 2:48 PM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/22/2017 2:48 PM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[02/22/2017 2:48 PM] - SUCCESS :[Development] Order #0 now mark as complete with Xendit!
+[02/27/2017 2:24 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[02/27/2017 2:24 AM] - SUCCESS :{
+    "id": "58b38ddb17a5a34f20a66670",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_159",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "joe@xendit.co",
+    "description": "Payment for Order #159 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58b38dda404fa55755e35f83",
+    "xendit_fee_amount": 2457,
+    "expiry_date": "2017-02-28T02:24:26.602Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 245043,
+            "identity_amount": 657
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 245043,
+            "identity_amount": 657
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470108",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470085",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[02/27/2017 2:27 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[02/27/2017 2:27 AM] - SUCCESS :{
+    "id": "58b38ea417a5a34f20a66671",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_161",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2100000,
+    "billable_amount": 2100000,
+    "taxable_amount": 0,
+    "received_amount": 2079000,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #161 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58b38ea4404fa55755e35f84",
+    "xendit_fee_amount": 21000,
+    "expiry_date": "2017-02-28T02:27:47.805Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 2099435,
+            "identity_amount": 565
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 2099435,
+            "identity_amount": 565
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470056",
+            "transfer_amount": 2100000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470039",
+            "transfer_amount": 2100000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[02/27/2017 2:28 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[02/27/2017 2:28 AM] - SUCCESS :{
+    "id": "58b38ea417a5a34f20a66671",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_161",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2100000,
+    "billable_amount": 2100000,
+    "taxable_amount": 0,
+    "received_amount": 2079000,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #161 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58b38ea4404fa55755e35f84",
+    "xendit_fee_amount": 21000,
+    "expiry_date": "2017-02-28T02:27:47.805Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 2099435,
+            "identity_amount": 565
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 2099435,
+            "identity_amount": 565
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470056",
+            "transfer_amount": 2100000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470039",
+            "transfer_amount": 2100000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[02/27/2017 2:32 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[02/27/2017 2:32 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[02/27/2017 2:32 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[02/27/2017 2:32 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[03/09/2017 2:05 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[03/09/2017 2:05 AM] - SUCCESS :{
+    "id": "58c0b84f1c9d45e536dccd12",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_163",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2113125,
+    "billable_amount": 2113125,
+    "taxable_amount": 0,
+    "received_amount": 2091993,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #163 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58c0b84f404fa55755e361a0",
+    "xendit_fee_amount": 21132,
+    "expiry_date": "2017-03-10T02:05:01.645Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 2112797,
+            "identity_amount": 328
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 2112797,
+            "identity_amount": 328
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381721",
+            "transfer_amount": 2113125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884644004",
+            "transfer_amount": 2113125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[03/09/2017 2:06 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[03/09/2017 2:06 AM] - SUCCESS :{
+    "id": "58c0b84f1c9d45e536dccd12",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_163",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 2113125,
+    "billable_amount": 2113125,
+    "taxable_amount": 0,
+    "received_amount": 2091993,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #163 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58c0b84f404fa55755e361a0",
+    "xendit_fee_amount": 21132,
+    "expiry_date": "2017-03-10T02:05:01.645Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 2112797,
+            "identity_amount": 328
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 2112797,
+            "identity_amount": 328
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381721",
+            "transfer_amount": 2113125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884644004",
+            "transfer_amount": 2113125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[03/09/2017 2:08 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[03/09/2017 2:08 AM] - SUCCESS :{
+    "id": "58c0b9061c9d45e536dccd13",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_164",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 12993,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #164 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58c0b906404fa55755e361a1",
+    "xendit_fee_amount": 132,
+    "expiry_date": "2017-03-10T02:08:04.914Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12331,
+            "identity_amount": 794
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 12331,
+            "identity_amount": 794
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029382756",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884644406",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[03/09/2017 4:17 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[03/09/2017 4:17 AM] - SUCCESS :{
+    "id": "58c0d7471c9d45e536dccd36",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_165",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 12993,
+    "payer_email": "joe@xendit.co",
+    "description": "Payment for Order #165 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/58c0d747404fa55755e361ac",
+    "xendit_fee_amount": 132,
+    "expiry_date": "2017-03-10T04:17:10.166Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12203,
+            "identity_amount": 922
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 12203,
+            "identity_amount": 922
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029384706",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884643953",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[03/15/2017 11:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[03/15/2017 11:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[03/15/2017 11:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[03/15/2017 11:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[03/15/2017 11:55 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[03/15/2017 11:56 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[03/15/2017 11:56 AM] - SUCCESS :{
+    "updated": "2017-03-15T11:55:54.371Z",
+    "created": "2017-03-15T11:54:59.583Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "example-invoice",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 12000,
+    "billable_amount": 12000,
+    "taxable_amount": 0,
+    "received_amount": 11880,
+    "payer_email": "support@xendit.co",
+    "description": "Super awesome invoice",
+    "xendit_fee_amount": 120,
+    "adjusted_received_amount": 11880,
+    "adjusted_xendit_fee_amount": 120,
+    "paid_amount": 12000,
+    "payment_method": "POOL",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "58c92b93336c5d7f5bad5db2"
+}
+[03/15/2017 11:56 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[03/15/2017 11:56 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[03/15/2017 11:56 AM] - SUCCESS :[Development] Order #0 now mark as complete with Xendit!
+[05/04/2017 11:57 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/04/2017 11:57 AM] - SUCCESS :{
+    "id": "590b1744fd4dfece498b62a3",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_167",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 12993,
+    "payer_email": "sutayub@gmail.com",
+    "description": "Payment for Order #167 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/590b1744703a72131af91778",
+    "xendit_fee_amount": 132,
+    "expiry_date": "2017-05-05T11:57:56.486Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12717,
+            "identity_amount": 408
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 12717,
+            "identity_amount": 408
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470088",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470043",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/24/2017 8:14 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/24/2017 8:14 AM] - SUCCESS :{
+    "id": "592540da519f24ad223f07f0",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_169",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 258825,
+    "billable_amount": 258825,
+    "taxable_amount": 0,
+    "received_amount": 256236,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #169 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592540da07f321f7432f7da1",
+    "xendit_fee_amount": 2589,
+    "expiry_date": "2017-05-25T08:14:17.904Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 258049,
+            "identity_amount": 776
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 258049,
+            "identity_amount": 776
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470052",
+            "transfer_amount": 258825,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470016",
+            "transfer_amount": 258825,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/24/2017 8:24 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/24/2017 8:24 AM] - SUCCESS :{
+    "id": "59254349519f24ad223f07f4",
+    "user_id": "58cd618ba0464eb64acdb246",
+    "external_id": "orderid_170",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Xendit Testing Business",
+    "amount": 1050000,
+    "billable_amount": 1050000,
+    "taxable_amount": 0,
+    "received_amount": 1050000,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #170 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/5925434907f321f7432f7da5",
+    "xendit_fee_amount": 0,
+    "expiry_date": "2017-05-25T08:24:41.556Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 1049641,
+            "identity_amount": 359
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001474806",
+            "transfer_amount": 1050000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001473008",
+            "transfer_amount": 1050000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/24/2017 9:19 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:19 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:19 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:20 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:20 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:20 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:20 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:21 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:21 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/24/2017 9:57 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/24/2017 9:57 AM] - SUCCESS :{
+    "error_code": "INVALID_API_KEY",
+    "message": "API key is not authorized for this API service"
+}
+[05/24/2017 9:57 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[05/24/2017 9:57 AM] - FAILURE :{
+    "error_code": "INVALID_API_KEY",
+    "message": "API key is not authorized for this API service"
+}
+[05/24/2017 9:57 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: API key is not authorized for this API service
+[05/24/2017 10:06 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/24/2017 10:06 AM] - SUCCESS :{
+    "error_code": "INVALID_API_KEY",
+    "message": "API key is not authorized for this API service"
+}
+[05/24/2017 10:06 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[05/24/2017 10:06 AM] - FAILURE :{
+    "error_code": "INVALID_API_KEY",
+    "message": "API key is not authorized for this API service"
+}
+[05/24/2017 10:06 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: API key is not authorized for this API service
+[05/24/2017 10:08 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/24/2017 10:08 AM] - SUCCESS :{
+    "id": "59255b86519f24ad223f0816",
+    "user_id": "58554739e58e79785a1743a2",
+    "external_id": "orderid_173",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Penang Developer",
+    "amount": 1050000,
+    "billable_amount": 1050000,
+    "taxable_amount": 0,
+    "received_amount": 1039500,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #173 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/59255b8607f321f7432f7db1",
+    "xendit_fee_amount": 10500,
+    "expiry_date": "2017-05-25T10:08:06.545Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 1049588,
+            "identity_amount": 412
+        }
+    ]
+}
+[05/25/2017 1:59 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/25/2017 1:59 AM] - SUCCESS :{
+    "id": "59263a88519f24ad223f0901",
+    "user_id": "58cd618ba0464eb64acdb246",
+    "external_id": "orderid_174",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Xendit Testing Business",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 13125,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #174 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/59263a8807f321f7432f7dc9",
+    "xendit_fee_amount": 0,
+    "expiry_date": "2017-05-26T01:59:36.603Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12984,
+            "identity_amount": 141
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001475057",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001474566",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/25/2017 2:01 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/25/2017 2:01 AM] - SUCCESS :{
+    "id": "59263a88519f24ad223f0901",
+    "user_id": "58cd618ba0464eb64acdb246",
+    "external_id": "orderid_174",
+    "status": "COMPLETED",
+    "is_high": false,
+    "merchant_name": "Xendit Testing Business",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 13125,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #174 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/59263a8807f321f7432f7dc9",
+    "xendit_fee_amount": 0,
+    "expiry_date": "2017-05-26T01:59:36.603Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12984,
+            "identity_amount": 141
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001475057",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001474566",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/25/2017 2:01 AM] - FAILURE :[Development] Order Created: Order #174 is coplete no future action required.
+[05/25/2017 2:37 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/25/2017 2:37 AM] - SUCCESS :{
+    "id": "59264375519f24ad223f090a",
+    "user_id": "58cd618ba0464eb64acdb246",
+    "external_id": "orderid_175",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Xendit Testing Business",
+    "amount": 26250,
+    "billable_amount": 26250,
+    "taxable_amount": 0,
+    "received_amount": 26250,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #175 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/5926437507f321f7432f7dca",
+    "xendit_fee_amount": 0,
+    "expiry_date": "2017-05-26T02:37:41.275Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 25765,
+            "identity_amount": 485
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001471515",
+            "transfer_amount": 26250,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001475070",
+            "transfer_amount": 26250,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/25/2017 2:38 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/25/2017 2:38 AM] - SUCCESS :{
+    "id": "59264375519f24ad223f090a",
+    "user_id": "58cd618ba0464eb64acdb246",
+    "external_id": "orderid_175",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Xendit Testing Business",
+    "amount": 26250,
+    "billable_amount": 26250,
+    "taxable_amount": 0,
+    "received_amount": 26250,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #175 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/5926437507f321f7432f7dca",
+    "xendit_fee_amount": 0,
+    "expiry_date": "2017-05-26T02:37:41.275Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 25765,
+            "identity_amount": 485
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001471515",
+            "transfer_amount": 26250,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001475070",
+            "transfer_amount": 26250,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "XENDIT TESTING BUSINESS",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/29/2017 7:06 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/29/2017 7:06 AM] - SUCCESS :{
+    "id": "592bc87c519f24ad223f0f13",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_176",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 39375,
+    "billable_amount": 39375,
+    "taxable_amount": 0,
+    "received_amount": 38981,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #176 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592bc87c07f321f7432f7e9f",
+    "xendit_fee_amount": 394,
+    "expiry_date": "2017-05-30T07:06:36.043Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 38657,
+            "identity_amount": 718
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 38657,
+            "identity_amount": 718
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470044",
+            "transfer_amount": 39375,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470061",
+            "transfer_amount": 39375,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 8:17 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 8:17 AM] - SUCCESS :{
+    "id": "592d2a833de629872418d948",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_177",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 39375,
+    "billable_amount": 39375,
+    "taxable_amount": 0,
+    "received_amount": 38981,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #177 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d2a8307f321f7432f7f13",
+    "xendit_fee_amount": 394,
+    "expiry_date": "2017-05-31T08:17:06.669Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 38932,
+            "identity_amount": 443
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 38932,
+            "identity_amount": 443
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470054",
+            "transfer_amount": 39375,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470046",
+            "transfer_amount": 39375,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 8:18 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:18 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:19 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:19 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 8:20 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 8:20 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:20 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:28 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 8:28 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 8:28 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 8:28 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 8:29 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 8:29 AM] - SUCCESS :{
+    "id": "592d2d7b3de629872418d949",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_178",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 13125,
+    "billable_amount": 13125,
+    "taxable_amount": 0,
+    "received_amount": 12993,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #178 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d2d7a07f321f7432f7f14",
+    "xendit_fee_amount": 132,
+    "expiry_date": "2017-05-31T08:29:46.544Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12576,
+            "identity_amount": 549
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 12576,
+            "identity_amount": 549
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470037",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470023",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 8:48 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:48 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:48 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:49 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 8:49 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 8:49 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 8:49 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 8:49 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 8:49 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 8:53 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 8:53 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 8:53 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 8:53 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 8:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 8:57 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 8:57 AM] - SUCCESS :{
+    "id": "592d34133de629872418d951",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_179",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #179 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d341307f321f7432f7f16",
+    "xendit_fee_amount": 2457,
+    "expiry_date": "2017-05-31T08:57:54.983Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 245278,
+            "identity_amount": 422
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 245278,
+            "identity_amount": 422
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470052",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470053",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 9:03 AM] - SUCCESS : -- ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== [Development] 
+[05/30/2017 9:03 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:03 AM] - SUCCESS : -- ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== [Development] 
+[05/30/2017 9:03 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:03 AM] - SUCCESS : -- ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== [Development] 
+[05/30/2017 9:03 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:10 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 9:10 AM] - SUCCESS :{
+    "id": "592d370db82415be63ffec3b",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_180",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 518700,
+    "billable_amount": 518700,
+    "taxable_amount": 0,
+    "received_amount": 513513,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #180 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d370d07f321f7432f7f18",
+    "xendit_fee_amount": 5187,
+    "expiry_date": "2017-05-31T09:10:36.742Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 517995,
+            "identity_amount": 705
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 517995,
+            "identity_amount": 705
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470015",
+            "transfer_amount": 518700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470051",
+            "transfer_amount": 518700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 9:16 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 9:16 AM] - SUCCESS :{
+    "id": "592d3869b82415be63ffec42",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_181",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #181 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d386907f321f7432f7f1a",
+    "xendit_fee_amount": 2457,
+    "expiry_date": "2017-05-31T09:16:24.747Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 245081,
+            "identity_amount": 619
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 245081,
+            "identity_amount": 619
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470019",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470034",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 9:19 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:19 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:19 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:19 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:19 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:19 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:23 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:23 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:23 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:31 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:31 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:31 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:31 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:35 AM] - SUCCESS :headers 1
+[05/30/2017 9:35 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:35 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:35 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:35 AM] - SUCCESS :headers 1
+[05/30/2017 9:35 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:35 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:35 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:35 AM] - SUCCESS :headers 1
+[05/30/2017 9:35 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:35 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:35 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:35 AM] - SUCCESS :headers 1
+[05/30/2017 9:35 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:35 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:35 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:35 AM] - SUCCESS :headers 1
+[05/30/2017 9:35 AM] - SUCCESS :x-callback-token 
+[05/30/2017 9:35 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:35 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:39 AM] - SUCCESS :x-callback-token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:39 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:39 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:39 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:39 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:39 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 9:41 AM] - SUCCESS :x-callback-token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:41 AM] - SUCCESS :callback_token ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:41 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:41 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:41 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:41 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 9:42 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:42 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:42 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:42 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 9:45 AM] - SUCCESS :ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:45 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:45 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:45 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:45 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 9:47 AM] - SUCCESS :ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:47 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:47 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:47 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:47 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 9:47 AM] - SUCCESS :ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:47 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:47 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:47 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:47 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 9:49 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:49 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:54 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:54 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 9:56 AM] - SUCCESS :ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 9:56 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 9:56 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 9:56 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 9:56 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 10:01 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 10:01 AM] - SUCCESS :{
+    "id": "592d42fbb82415be63ffec59",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_182",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #182 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d42fb07f321f7432f7f2a",
+    "xendit_fee_amount": 2457,
+    "expiry_date": "2017-05-31T10:01:31.217Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 245236,
+            "identity_amount": 464
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 245236,
+            "identity_amount": 464
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470033",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470055",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 10:07 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:07 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:08 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:08 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:10 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:10 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:11 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:11 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:11 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:11 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:11 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:11 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:12 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:12 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:13 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:13 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:13 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:13 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:13 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:18 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:19 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:20 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:21 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:21 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:22 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:22 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:25 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[05/30/2017 10:25 AM] - SUCCESS :ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ== == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:25 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 10:25 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z"
+}
+[05/30/2017 10:25 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 10:25 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 10:25 AM] - SUCCESS : == ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/30/2017 10:25 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/30/2017 10:31 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 10:31 AM] - SUCCESS :{
+    "id": "592d49e4b82415be63ffec66",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_183",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #183 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d49e407f321f7432f7f2f",
+    "xendit_fee_amount": 2457,
+    "expiry_date": "2017-05-31T10:31:00.175Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 245183,
+            "identity_amount": 517
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 245183,
+            "identity_amount": 517
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470022",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470043",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 10:32 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 10:32 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/30/2017 10:32 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 10:32 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 10:33 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 10:33 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/30/2017 10:33 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/30/2017 10:33 AM] - SUCCESS :{
+    "id": "592d4a7ab82415be63ffec67",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_184",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 273000,
+    "billable_amount": 273000,
+    "taxable_amount": 0,
+    "received_amount": 270270,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #184 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592d4a7a07f321f7432f7f30",
+    "xendit_fee_amount": 2730,
+    "expiry_date": "2017-05-31T10:33:30.373Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 272882,
+            "identity_amount": 118
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 272882,
+            "identity_amount": 118
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470061",
+            "transfer_amount": 273000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470059",
+            "transfer_amount": 273000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/30/2017 10:34 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/30/2017 10:34 AM] - SUCCESS :{
+    "updated": "2017-05-30T10:34:22.637Z",
+    "created": "2017-05-30T10:33:30.875Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_184",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 273000,
+    "billable_amount": 273000,
+    "taxable_amount": 0,
+    "received_amount": 270270,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #184 at Xendit Development",
+    "xendit_fee_amount": 2730,
+    "adjusted_received_amount": 270270,
+    "adjusted_xendit_fee_amount": 2730,
+    "paid_amount": 273000,
+    "payment_method": "CREDIT_CARD",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "592d4a7ab82415be63ffec67"
+}
+[05/30/2017 10:34 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/30/2017 10:34 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[05/30/2017 10:34 AM] - SUCCESS :[Development] Order #184 now mark as complete with Xendit!
+[05/31/2017 4:13 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/31/2017 4:13 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:14 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:14 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:14 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Callback Token: 
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:15 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Callback Token: 
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:15 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:15 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:17 AM] - SUCCESS :[Development] Callback Token: 
+[05/31/2017 4:17 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:17 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:17 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:17 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:19 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Callback Token: MjM4NTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE3MA==
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:19 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:19 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:20 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Token: MjM4NTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE3MA==
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Token: MjM4NTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE3MA==
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:20 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:20 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:20 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[05/31/2017 4:22 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/31/2017 4:22 AM] - SUCCESS :{
+    "id": "592e450169ed01117acf8031",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_185",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 273000,
+    "billable_amount": 273000,
+    "taxable_amount": 0,
+    "received_amount": 270270,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #185 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592e450107f321f7432f7f89",
+    "xendit_fee_amount": 2730,
+    "expiry_date": "2017-06-01T04:22:24.948Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 272642,
+            "identity_amount": 358
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 272642,
+            "identity_amount": 358
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470035",
+            "transfer_amount": 273000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470019",
+            "transfer_amount": 273000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/31/2017 4:23 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/31/2017 4:23 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 4:23 AM] - SUCCESS :{
+    "updated": "2017-05-31T04:23:27.109Z",
+    "created": "2017-05-31T04:22:25.347Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_185",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 273000,
+    "billable_amount": 273000,
+    "taxable_amount": 0,
+    "received_amount": 270270,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #185 at Xendit Development",
+    "xendit_fee_amount": 2730,
+    "adjusted_received_amount": 270270,
+    "adjusted_xendit_fee_amount": 2730,
+    "paid_amount": 273000,
+    "payment_method": "CREDIT_CARD",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "592e450169ed01117acf8031"
+}
+[05/31/2017 4:23 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 4:23 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[05/31/2017 4:23 AM] - SUCCESS :[Development] Order #185 now mark as complete with Xendit!
+[05/31/2017 9:13 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[05/31/2017 9:13 AM] - SUCCESS :{
+    "id": "592e893969ed01117acf8091",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_186",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #186 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/592e893907f321f7432f7fa9",
+    "xendit_fee_amount": 2457,
+    "expiry_date": "2017-06-01T09:13:29.318Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 245126,
+            "identity_amount": 574
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 245126,
+            "identity_amount": 574
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470045",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470031",
+            "transfer_amount": 245700,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[05/31/2017 9:26 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[05/31/2017 9:26 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[05/31/2017 9:26 AM] - SUCCESS :{
+    "updated": "2017-05-31T09:26:09.675Z",
+    "created": "2017-05-31T09:13:29.754Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_186",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 245700,
+    "billable_amount": 245700,
+    "taxable_amount": 0,
+    "received_amount": 243243,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #186 at Xendit Development",
+    "xendit_fee_amount": 2457,
+    "adjusted_received_amount": 243243,
+    "adjusted_xendit_fee_amount": 2457,
+    "paid_amount": 245700,
+    "payment_method": "POOL",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "592e893969ed01117acf8091"
+}
+[05/31/2017 9:26 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[05/31/2017 9:26 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[05/31/2017 9:26 AM] - SUCCESS :[Development] Order #186 now mark as complete with Xendit!
+[06/01/2017 3:45 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/01/2017 3:45 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[06/01/2017 3:45 AM] - SUCCESS :{
+    "updated": "2017-06-01T03:45:27.755Z",
+    "created": "2017-06-01T03:37:05.967Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "invoice-1496288223",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 11000,
+    "billable_amount": 11000,
+    "taxable_amount": 0,
+    "received_amount": 10890,
+    "payer_email": "customer@domain.com",
+    "description": "Invoice-1496288223",
+    "xendit_fee_amount": 110,
+    "adjusted_received_amount": 10890,
+    "adjusted_xendit_fee_amount": 110,
+    "paid_amount": 11000,
+    "payment_method": "POOL",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "592f8be115ba372f59fb2455"
+}
+[06/01/2017 3:45 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[06/01/2017 3:45 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[06/01/2017 3:45 AM] - SUCCESS :[Development] Order #0 now mark as complete with Xendit!
+[06/01/2017 4:49 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/01/2017 4:49 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[06/01/2017 4:49 AM] - SUCCESS :{
+    "updated": "2017-06-01T04:49:15.785Z",
+    "created": "2017-06-01T04:48:24.016Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "invoice-1496292498",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 11000,
+    "billable_amount": 11000,
+    "taxable_amount": 0,
+    "received_amount": 10890,
+    "payer_email": "chanel@xendit.com",
+    "description": "Invoice-1496292498",
+    "xendit_fee_amount": 110,
+    "adjusted_received_amount": 10890,
+    "adjusted_xendit_fee_amount": 110,
+    "paid_amount": 11000,
+    "payment_method": "POOL",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "592f9c9815ba372f59fb2467"
+}
+[06/01/2017 4:49 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[06/01/2017 4:49 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[06/01/2017 4:49 AM] - SUCCESS :[Development] Order #0 now mark as complete with Xendit!
+[06/01/2017 12:17 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[06/01/2017 12:17 PM] - SUCCESS :{
+    "id": "593005cc15ba372f59fb24da",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_188",
+    "status": "PENDING",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 436800,
+    "billable_amount": 436800,
+    "taxable_amount": 0,
+    "received_amount": 432432,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #188 at Xendit Development",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/593005cc07f321f7432f7fe6",
+    "xendit_fee_amount": 4368,
+    "expiry_date": "2017-06-02T12:17:15.725Z",
+    "taxes": [],
+    "fees": [],
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 435982,
+            "identity_amount": 818
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 435982,
+            "identity_amount": 818
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470034",
+            "transfer_amount": 436800,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470033",
+            "transfer_amount": 436800,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ]
+}
+[06/01/2017 12:19 PM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/01/2017 12:19 PM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[06/01/2017 12:19 PM] - SUCCESS :{
+    "updated": "2017-06-01T12:19:30.234Z",
+    "created": "2017-06-01T12:17:16.156Z",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "external_id": "orderid_188",
+    "is_high": false,
+    "merchant_name": "Toko Joe",
+    "amount": 436800,
+    "billable_amount": 436800,
+    "taxable_amount": 0,
+    "received_amount": 432432,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #188 at Xendit Development",
+    "xendit_fee_amount": 4368,
+    "adjusted_received_amount": 432432,
+    "adjusted_xendit_fee_amount": 4368,
+    "paid_amount": 436800,
+    "payment_method": "POOL",
+    "status": "COMPLETED",
+    "fees": [],
+    "taxes": [],
+    "id": "593005cc15ba372f59fb24da"
+}
+[06/01/2017 12:19 PM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[06/01/2017 12:19 PM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[06/01/2017 12:19 PM] - SUCCESS :[Development] Order #188 now mark as complete with Xendit!
+[06/07/2017 6:29 AM] - SUCCESS :[Development] Callback Token: OTI1NTdjNWFhN2EzNmUzYjZhNzA5YjZlMTQ4MTQ3NTQ5NzE0NzE4OQ==
+[06/07/2017 6:29 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:29 AM] - SUCCESS :[Development] Callback Token: NjA1N2M1YWE3YTM2ZTNiNmE3MDliNmUxNDgxNDc1NDk3MTQ3MTkx
+[06/07/2017 6:29 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:29 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[06/07/2017 6:29 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[06/07/2017 6:30 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[06/07/2017 6:30 AM] - SUCCESS :[Development] Callback Request: Invalid callback!
+[06/07/2017 6:31 AM] - SUCCESS :[Development] Callback Token: OTI1NTdjNWFhN2EzNmUzYjZhNzA5YjZlMTQ4MTQ3NTQ5NzE0NzE4OQ==
+[06/07/2017 6:31 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:37 AM] - SUCCESS :[Development] Callback Token: OTI1NTdjNWFhN2EzNmUzYjZhNzA5YjZlMTQ4MTQ3NTQ5NzE0NzE4OQ==
+[06/07/2017 6:37 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:37 AM] - SUCCESS :[Development] Callback Token: NjA1N2M1YWE3YTM2ZTNiNmE3MDliNmUxNDgxNDc1NDk3MTQ3MTkx
+[06/07/2017 6:37 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:37 AM] - SUCCESS :[Development] Callback Token: 
+[06/07/2017 6:37 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:40 AM] - SUCCESS :[Development] Callback Token: OTI1NTdjNWFhN2EzNmUzYjZhNzA5YjZlMTQ4MTQ3NTQ5NzE0NzE4OQ==
+[06/07/2017 6:40 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:43 AM] - SUCCESS :[Development] Callback Token: OTI1NTdjNWFhN2EzNmUzYjZhNzA5YjZlMTQ4MTQ3NTQ5NzE0NzE4OQ==
+[06/07/2017 6:43 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 6:43 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:44 AM] - SUCCESS :[Development] Callback Token: NjA1N2M1YWE3YTM2ZTNiNmE3MDliNmUxNDgxNDc1NDk3MTQ3MTkx
+[06/07/2017 6:44 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 6:44 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 6:44 AM] - SUCCESS :[Development] Callback Token: OTI1NTdjNWFhN2EzNmUzYjZhNzA5YjZlMTQ4MTQ3NTQ5NzE0NzE4OQ==
+[06/07/2017 6:44 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 6:44 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[06/07/2017 7:08 AM] - SUCCESS :{
+    "id": "579c8d61f23fa4ca35e52da4",
+    "user_id": "5781d19b2e2385880609791c",
+    "external_id": "invoice_123124123",
+    "is_high": true,
+    "status": "COMPLETED",
+    "merchant_name": "Xendit",
+    "amount": 50000,
+    "billable_amount": 54000,
+    "taxable_amount": 4000,
+    "received_amount": 47500,
+    "payer_email": "albert@xendit.co",
+    "description": "This is a description",
+    "xendit_fee_amount": 500,
+    "expiry_date": "2016-08-01T11:20:01.017Z",
+    "taxes": [
+        {
+            "percentage": 0.1,
+            "name": "VAT"
+        },
+        {
+            "percentage": -0.02,
+            "name": "PPH"
+        }
+    ],
+    "fees": [
+        {
+            "percentage": 0.04,
+            "xendit_user_id": "XENDIT_FEES",
+            "name": "Agent Fee"
+        }
+    ],
+    "paid_amount": 54000,
+    "payment_method": "POOL",
+    "adjusted_received_amount": 47500,
+    "adjusted_xendit_fee_amount": 500
+}
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Invoice #579c8d61f23fa4ca35e52da4 was pushed from Xendit!
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Callback Token: MjM4NTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE3MA==
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Callback Token: MjM4NTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE3MA==
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Callback Request: Invalid token!
+[06/07/2017 7:08 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[06/07/2017 7:08 AM] - SUCCESS :{
+    "id": "5937a6803cdcbd8279dfc422",
+    "external_id": "orderid_190",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "xendit_fee_amount": 132,
+    "received_amount": 12993,
+    "status": "PENDING",
+    "merchant_name": "Toko Joe",
+    "merchant_profile_picture_url": "https:\/\/xnd-companies.s3.amazonaws.com\/prod\/1493611332214_993.png",
+    "amount": 13125,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #190 at Xendit Development",
+    "expiry_date": "2017-06-08T07:08:48.551Z",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/5937a6803cdcbd8279dfc422",
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 12781,
+            "identity_amount": 344
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 12781,
+            "identity_amount": 344
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470052",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470022",
+            "transfer_amount": 13125,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ],
+    "should_exclude_credit_card": false,
+    "created": "2017-06-07T07:08:48.853Z",
+    "updated": "2017-06-07T07:08:48.853Z"
+}
+[06/07/2017 7:10 AM] - SUCCESS :[Development] Callback Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 7:10 AM] - SUCCESS :[Development] Saved Xendit Token: ODYyNTgyNDEyOGFhNmY5ZjliNjQ4YmU5ZDc2MTQ3ODc1OTA1MDE2OQ==
+[06/07/2017 7:10 AM] - SUCCESS :[Development] Callback Request: Xendit was sent valid data!
+[06/07/2017 7:10 AM] - SUCCESS :{
+    "id": "5937a6803cdcbd8279dfc422",
+    "external_id": "orderid_190",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "is_high": false,
+    "xendit_fee_amount": 132,
+    "received_amount": 13125,
+    "payment_method": "CREDIT_CARD",
+    "status": "COMPLETED",
+    "merchant_name": "Toko Joe",
+    "amount": 13125,
+    "paid_amount": 13125,
+    "payer_email": "tommy@xendit.co",
+    "description": "Payment for Order #190 at Xendit Development",
+    "adjusted_xendit_fee_amount": 0,
+    "adjusted_received_amount": 12993,
+    "created": "2017-06-07T07:08:48.853Z",
+    "updated": "2017-06-07T07:10:18.161Z"
+}
+[06/07/2017 7:10 AM] - SUCCESS :[Development] Xendit merchant check passed, continue!
+[06/07/2017 7:10 AM] - SUCCESS :[Development] Xendit is COMPLETED, Proccess Order!
+[06/07/2017 7:10 AM] - SUCCESS :[Development] Order #190 now mark as complete with Xendit!
+[06/15/2017 6:02 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[06/15/2017 6:02 AM] - SUCCESS :{
+    "id": "594222f1c3d3bb7f39733ebf",
+    "external_id": "orderid_186",
+    "user_id": "5824128aa6f9f9b648be9d76",
+    "xendit_fee_amount": 250,
+    "received_amount": 24750,
+    "status": "PENDING",
+    "merchant_name": "Toko Joe",
+    "merchant_profile_picture_url": "https:\/\/xnd-companies.s3.amazonaws.com\/prod\/1493611332214_993.png",
+    "amount": 25000,
+    "payer_email": "teofebano.stei@bonbon.com",
+    "description": "Payment for Order #186 at Xendit Development",
+    "expiry_date": "2017-06-16T06:02:24.976Z",
+    "invoice_url": "http:\/\/xendit-invoice-web-staging.us-west-2.elasticbeanstalk.com\/web\/invoices\/594222f1c3d3bb7f39733ebf",
+    "available_banks": [
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "UNIQUE",
+            "bank_branch": "KCP Jkt Mayestik",
+            "bank_account_number": "1260006994049",
+            "account_holder_name": "SENDIRI DIGITAL INDO",
+            "transfer_amount": 24533,
+            "identity_amount": 467
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "UNIQUE",
+            "bank_branch": "Ambassador",
+            "bank_account_number": "6640519493",
+            "account_holder_name": "SENDIRI DIGITAL INDONESIA",
+            "transfer_amount": 24533,
+            "identity_amount": 467
+        },
+        {
+            "bank_code": "BCA",
+            "collection_type": "POOL",
+            "bank_account_number": "029381001470013",
+            "transfer_amount": 25000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        },
+        {
+            "bank_code": "MANDIRI",
+            "collection_type": "POOL",
+            "bank_account_number": "884641001470037",
+            "transfer_amount": 25000,
+            "bank_branch": "Virtual Account",
+            "account_holder_name": "TOKO JOE",
+            "identity_amount": 0
+        }
+    ],
+    "should_exclude_credit_card": false,
+    "created": "2017-06-15T06:02:25.248Z",
+    "updated": "2017-06-15T06:02:25.248Z"
+}

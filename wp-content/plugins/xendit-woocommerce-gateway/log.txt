@@ -1,0 +1,913 @@
+[09/17/2017 4:09 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 4:09 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 4:09 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 4:09 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 4:09 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 4:38 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 4:38 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 4:38 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 4:38 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 4:38 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:18 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:18 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:18 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:18 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:18 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:19 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:19 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:19 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:19 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:19 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:20 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:20 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:20 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:20 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:20 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:21 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:21 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:21 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:21 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:21 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:23 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:23 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:23 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:23 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:23 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:09 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:09 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:09 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:09 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:09 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:13 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:13 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:13 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:13 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:13 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:13 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:13 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:13 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:13 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:13 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:13 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:19 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:19 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:19 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:19 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:19 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:19 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:19 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:19 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:19 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:19 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:25 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:25 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:25 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:25 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:25 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:27 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:27 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:27 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:27 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:27 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:27 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:27 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:27 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:27 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:27 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:27 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:34 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:34 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:34 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:34 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:34 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:35 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:35 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:35 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:35 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:35 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:37 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:37 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:37 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:37 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:37 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:39 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:39 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:39 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:39 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:39 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:40 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:40 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:40 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:40 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:40 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:41 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 9:41 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:41 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 9:41 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 9:41 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 9:41 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 10:30 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 10:30 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 10:30 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 10:30 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 10:30 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 10:38 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 10:38 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 10:38 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 10:38 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 10:38 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/17/2017 10:53 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/17/2017 10:53 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 10:53 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/17/2017 10:53 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/17/2017 10:53 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/19/2017 4:11 AM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/19/2017 4:11 AM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/19/2017 4:11 AM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/19/2017 4:11 AM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/19/2017 4:11 AM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
+[09/19/2017 5:26 PM] - SUCCESS :[Development] Order Created: Xendit sent response..
+[09/19/2017 5:26 PM] - SUCCESS :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/19/2017 5:26 PM] - FAILURE :[Development] Order Created: Xendit was sent error response..
+[09/19/2017 5:26 PM] - FAILURE :{
+    "error_code": "API_VALIDATION_ERROR",
+    "message": "There was an error with the format submitted to the server.",
+    "errors": [
+        {
+            "field": "api_key",
+            "location": "body",
+            "messages": [
+                "\"api_key\" is not allowed to be empty"
+            ],
+            "types": [
+                "any.empty"
+            ]
+        }
+    ]
+}
+[09/19/2017 5:26 PM] - SUCCESS :[Development] Ouwh Oh, Payment gateway Error!\nError: There was an error with the format submitted to the server.
