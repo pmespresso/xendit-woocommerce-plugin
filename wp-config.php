@@ -30,16 +30,16 @@ define( 'FTP_SSL', true );
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 // define('DB_NAME', 'xendit_wp_wc_db');
-define('DB_NAME', 'heroku_76821c7009f157b');
+define('DB_NAME', 'xendit_wp_wc_db');
 
 /** MySQL database username */
-define('DB_USER', 'b6ead0396afebd');
+define('DB_USER', 'xendit_woo_user');
 
 /** MySQL database password */
-define('DB_PASSWORD', '3854938d');
+define('DB_PASSWORD', 'Admin@123');
 
 /** MySQL hostname */
-define('DB_HOST', 'us-cdbr-iron-east-05.cleardb.net');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

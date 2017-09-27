@@ -80,6 +80,7 @@ function woocommerce_xendit_init(){
       add_filter( 'woocommerce_available_payment_gateways', array(&$this, 'xendit_status_payment_gateways') );
       add_filter( 'woocommerce_payment_complete_order_status', array(&$this, 'update_status_complete') );
 
+      require_once( dirname( __FILE__ ) . '/includes/class-wc-gateway-xendit-addons.php' );
     }
 
     public function is_valid_for_use() {
@@ -446,7 +447,7 @@ function woocommerce_xendit_init(){
       return $mailer->send( $order->billing_email, sprintf( __('Order #%s has been created', 'xendit'), $order->get_order_number() ), $message );
     }
 
-		public function receipt_page( $order_id ) {
+	public function receipt_page( $order_id ) {
       global $wpdb, $woocommerce;
 
       $order          = new WC_Order($order_id);

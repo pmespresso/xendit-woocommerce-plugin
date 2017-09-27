@@ -739,6 +739,9 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 * @return array|void
 	 */
 	public function process_payment( $order_id, $retry = true, $force_customer = false ) {
+		var_dump('process_payment called in stripe');
+		// die();
+
 		try {
 			$order  = wc_get_order( $order_id );
 			$source = $this->get_source( get_current_user_id(), $force_customer );
@@ -989,9 +992,20 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 *
 	 * @param string $message
 	 */
-	public function log( $message ) {
-		if ( $this->logging ) {
-			WC_Stripe::log( $message );
-		}
-	}
+	 public function add_log( $message, $success, $end = false ){
+ 		if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
+ 			file_put_contents(dirname( __FILE__ ).'/log.txt', 'Xendit Logs'."\r\n");
+ 		}
+
+ 		$text = "[".date( "m/d/Y g:i A" )."] - ".( $success ? "SUCCESS :" : "FAILURE :" ).$message."\n";
+
+ 		if ( $end ){
+ 			$text .= "\n------------------------------------------------------------------\n\n";
+ 		}
+
+ 		$debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
+ 		$fp = fopen( $debug_log_file_name, "a" );
+ 		fwrite( $fp, $text );
+ 		fclose( $fp );
+ 	}
 }
