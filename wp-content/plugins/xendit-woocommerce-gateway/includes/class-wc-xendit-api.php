@@ -51,16 +51,15 @@ class WC_Xendit_API {
 	 * @param string $api
 	 * @return array|WP_Error
 	 */
-	public static function request( $request, $api = 'charges', $method = 'POST' ) {
-		self::log( "{$api} request: " . print_r( $request, true ) );
+	public static function request( $request, $api = 'credit_card_charges', $method = 'POST' ) {
+		self::log( "{$api} request: " . print_r( $request, true ) . PHP_EOL);
 
 		$response = wp_safe_remote_post(
 			self::ENDPOINT . $api,
 			array(
 				'method'        => $method,
 				'headers'       => array(
-					'Authorization'  => 'Basic ' . base64_encode( self::get_secret_key() . ':' ),
-					'Xendit-Version' => '2016-03-07',
+					'Authorization'  => 'Basic ' . base64_encode( self::get_secret_key() . ':' )
 				),
 				'body'       => apply_filters( 'woocommerce_xendit_request_body', $request, $api ),
 				'timeout'    => 70,
@@ -96,11 +95,22 @@ class WC_Xendit_API {
 	 *
 	 * @param string $message
 	 */
-	public static function log( $message ) {
-		$options = get_option( 'woocommerce_xendit_settings' );
+	// public static function log( $message ) {
+	// 	$options = get_option( 'woocommerce_xendit_settings' );
+	//
+	// 	if ( 'yes' === $options['logging'] ) {
+	// 		WC_Xendit::log( $message );
+	// 	}
+	// }
 
-		if ( 'yes' === $options['logging'] ) {
-			WC_Xendit::log( $message );
-		}
-	}
+	public function log( $message ){
+	   if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
+		   file_put_contents(dirname( __FILE__ ).'/log.txt', 'Xendit Logs'."\r\n");
+	   }
+
+	   $debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
+	   $fp = fopen( $debug_log_file_name, "a" );
+	   fwrite( $fp, $message );
+	   fclose( $fp );
+   }
 }

@@ -1,1 +1,863 @@
 Xendit Logs
+{"id":77,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:27:32.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:27:32.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca4645ddf3","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"77","meta_data":[],"line_items":{"245":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 77 for the amount of 50000.00credit_card_charges request: Array
+(
+    [currency] => idr
+    [amount] => 5000000
+    [description] => Xendit_woo - Order 77
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => YJ Kim
+            [Customer Email] => yjkimjunior@gmail.com
+        )
+
+    [source] => 59cca463d55cd25611c2d4ad
+)
+Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: {"id":78,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:33:02.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:33:02.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca5aeb4ebe","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"78","meta_data":[],"line_items":{"246":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 78 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: {"id":79,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca7620a5eb","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"79","meta_data":[],"line_items":{"247":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 79 for the amount of 50000.00{"id":79,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca7620a5eb","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"79","meta_data":[{"id":3132,"key":"_xendit_card_id","value":"59cca761d55cd25611c2d4e1"}],"line_items":{"248":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 79 for the amount of 50000.00{"id":79,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca7620a5eb","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"79","meta_data":[{"id":3134,"key":"_xendit_card_id","value":"59cca788d55cd25611c2d4e4"}],"line_items":{"249":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 79 for the amount of 50000.00{"id":79,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:40:18.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca7620a5eb","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"79","meta_data":[{"id":3136,"key":"_xendit_card_id","value":"59cca79bd55cd25611c2d4e8"}],"line_items":{"250":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 79 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: {"id":80,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:42:45.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:42:45.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59cca7f5bdbda","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"80","meta_data":[],"line_items":{"251":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Info: Begin processing payment for order 80 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: Info: Begin processing payment for order 81 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: Info: Begin processing payment for order 82 for the amount of 50000.00---------generate_payment_request called in Xendit--------Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: Info: Begin processing payment for order 83 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 84 for the amount of 50000.00payment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 84 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 85 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 86 for the amount of 50000.00{"id":86,"parent_id":0,"status":"pending","currency":"IDR","version":"3.0.7","prices_include_tax":false,"date_created":{"date":"2017-09-28 07:58:12.000000","timezone_type":1,"timezone":"+00:00"},"date_modified":{"date":"2017-09-28 07:58:12.000000","timezone_type":1,"timezone":"+00:00"},"discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"50000.00","total_tax":"0","customer_id":1,"order_key":"wc_order_59ccab94b0c18","billing":{"first_name":"YJ","last_name":"Kim","company":"","address_1":"2419 Durant Avenue","address_2":"Apt 31","city":"Berkeley","state":"CA","postcode":"94704","country":"US","email":"yjkimjunior@gmail.com","phone":"15109902644"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"xendit","payment_method_title":"Credit Card (Xendit)","transaction_id":"","customer_ip_address":"::1","customer_user_agent":"mozilla\/5.0 (macintosh; intel mac os x 10_12_6) applewebkit\/537.36 (khtml, like gecko) chrome\/60.0.3112.113 safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"386bc4f680ec73d0755fa505fe6d9f1e","number":"86","meta_data":[{"key":"_xendit_card_id","value":"59ccab93d55cd25611c2d531","id":3497}],"line_items":{"258":{}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 87 for the amount of 50000.00payment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 87 for the amount of 50000.00process_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 87 for the amount of 50000.00payment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 87 for the amount of 50000.00payment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 87 for the amount of 50000.00payment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 87 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 88 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 89 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 90 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 91 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 92 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 93 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 94 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 95 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 96 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => API_VALIDATION_ERROR
+    [message] => There was an error with the format submitted to the server.
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [field] => token_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "token_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+            [1] => stdClass Object
+                (
+                    [field] => external_id
+                    [location] => body
+                    [messages] => Array
+                        (
+                            [0] => "external_id" is required
+                        )
+
+                    [types] => Array
+                        (
+                            [0] => any.required
+                        )
+
+                )
+
+        )
+
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 100 for the amount of 100000.00Processing response: stdClass Object
+(
+    [error_code] => AUTHENTICATION_ID_MISSING_ERROR
+    [message] => Authentication id is required to capture this transaction
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 101 for the amount of 50000.00Processing response: stdClass Object
+(
+    [error_code] => TOKEN_NOT_FOUND_ERROR
+    [message] => Credit card token not found
+)
+Successful auth: payment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xenditsave_source called in Xendit mofoInfo: Begin processing payment for order 102 for the amount of 50000.00Processing response: stdClass Object
+(
+    [created] => 2017-09-28T22:47:43.281Z
+    [business_id] => 58cd618ba0464eb64acdb246
+    [authorized_amount] => 5000000
+    [external_id] => ZRLS95xpcZQad0E3hxlajk6zGSLE4rlAhUAV2xyR6jH3cgwLMe9sR7BNvjaF3KNu
+    [merchant_id] => xendit
+    [merchant_reference_code] => 59cd7c0e4c775b4726f0b9d3
+    [card_type] => CREDIT
+    [masked_card_number] => 520000XXXXXX0056
+    [charge_type] => MULTIPLE_USE_TOKEN
+    [card_brand] => MASTERCARD
+    [status] => CAPTURED
+    [capture_amount] => 5000000
+    [id] => 59cd7c0f4c775b4726f0b9d4
+)
+Successful auth: 59cd7c0f4c775b4726f0b9d4payment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in XenditError: Could not create Xendit customer.process_payment called in Xenditget_source called in XenditError: Could not create Xendit customer.payment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditpayment_scripts called in xenditprocess_payment called in Xenditget_source called in Xendit

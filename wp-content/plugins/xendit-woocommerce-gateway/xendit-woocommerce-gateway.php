@@ -102,7 +102,6 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 			}
 
 			include_once( dirname( __FILE__ ) . '/includes/class-wc-xendit-api.php' );
-			include_once( dirname( __FILE__ ) . '/includes/class-wc-xendit-customer.php' );
 
 			// Init the gateway itself
 			$this->init_gateways();
@@ -116,9 +115,6 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 			add_action( 'woocommerce_payment_token_deleted', array( $this, 'woocommerce_payment_token_deleted' ), 10, 2 );
 			add_action( 'woocommerce_payment_token_set_default', array( $this, 'woocommerce_payment_token_set_default' ) );
 			add_action( 'wp_ajax_xendit_dismiss_request_api_notice', array( $this, 'dismiss_request_api_notice' ) );
-
-			include_once( dirname( __FILE__ ) . '/includes/class-wc-xendit-payment-request.php' );
-
 		}
 
 
@@ -270,9 +266,6 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 
 			if ( class_exists( 'WC_Payment_Gateway_CC' ) ) {
 				include_once( dirname( __FILE__ ) . '/includes/class-wc-gateway-xendit.php' );
-			} else {
-				include_once( dirname( __FILE__ ) . '/includes/legacy/class-wc-gateway-xendit.php' );
-				include_once( dirname( __FILE__ ) . '/includes/legacy/class-wc-gateway-xendit-saved-cards.php' );
 			}
 
 			add_filter( 'woocommerce_payment_gateways', array( $this, 'add_gateways' ) );
@@ -331,16 +324,17 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 			$order = wc_get_order( $order_id );
 			$amount = $order->get_total() * 100;
 
-			print_r("IFJEIOFEWJ");
+			$this->log('capture_payment called in xendit');
 
 			$charge   = get_post_meta( $order_id, '_xendit_charge_id', true );
 			$captured = get_post_meta( $order_id, '_xendit_charge_captured', true );
 
 			if ( $charge && 'no' === $captured ) {
+				$this->log('if block in capture payment called in Xendit');
 				$result = WC_Xendit_API::request( array(
 					'amount'   => $amount,
-					'expand[]' => 'balance_transaction',
-				), 'charges/' . $charge . '/capture' );
+					'external_id' => 'postman-2jkds-90904'
+				), 'credit_card_capture' );
 
 				if ( is_wp_error( $result ) ) {
 					$order->add_order_note( __( 'Unable to capture charge!', 'woocommerce-gateway-xendit' ) . ' ' . $result->get_error_message() );
@@ -389,59 +383,6 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 
 		}
 
-		/**
-		 * Gets saved tokens from API if they don't already exist in WooCommerce.
-		 * @param array $tokens
-		 * @return array
-		 */
-		public function woocommerce_get_customer_payment_tokens( $tokens, $customer_id, $gateway_id ) {
-			if ( is_user_logged_in() && 'xendit' === $gateway_id && class_exists( 'WC_Payment_Token_CC' ) ) {
-				$xendit_customer = new WC_Xendit_Customer( $customer_id );
-				$xendit_cards    = $xendit_customer->get_cards();
-				$stored_tokens   = array();
-
-				foreach ( $tokens as $token ) {
-					$stored_tokens[] = $token->get_token();
-				}
-
-				foreach ( $xendit_cards as $card ) {
-					if ( ! in_array( $card->id, $stored_tokens ) ) {
-						$token = new WC_Payment_Token_CC();
-						$token->set_token( $card->id );
-						$token->set_gateway_id( 'xendit' );
-						$token->set_card_type( strtolower( $card->brand ) );
-						$token->set_last4( $card->last4 );
-						$token->set_expiry_month( $card->exp_month );
-						$token->set_expiry_year( $card->exp_year );
-						$token->set_user_id( $customer_id );
-						$token->save();
-						$tokens[ $token->get_id() ] = $token;
-					}
-				}
-			}
-			return $tokens;
-		}
-
-		/**
-		 * Delete token from Xendit
-		 */
-		public function woocommerce_payment_token_deleted( $token_id, $token ) {
-			if ( 'xendit' === $token->get_gateway_id() ) {
-				$xendit_customer = new WC_Xendit_Customer( get_current_user_id() );
-				$xendit_customer->delete_card( $token->get_token() );
-			}
-		}
-
-		/**
-		 * Set as default in Xendit
-		 */
-		public function woocommerce_payment_token_set_default( $token_id ) {
-			$token = WC_Payment_Tokens::get( $token_id );
-			if ( 'xendit' === $token->get_gateway_id() ) {
-				$xendit_customer = new WC_Xendit_Customer( get_current_user_id() );
-				$xendit_customer->set_default_card( $token->get_token() );
-			}
-		}
 
 		/**
 		 * Checks Xendit minimum order value authorized for IDR
@@ -461,7 +402,7 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 
 	 		$debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
 	 		$fp = fopen( $debug_log_file_name, "a" );
-	 		fwrite( $fp, $text );
+	 		fwrite( $fp, $message );
 	 		fclose( $fp );
 	 	}
 

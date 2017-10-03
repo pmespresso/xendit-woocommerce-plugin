@@ -917,6 +917,7 @@ class WC_Checkout {
 	 * Process the checkout after the confirm order button is pressed.
 	 */
 	public function process_checkout() {
+		$this->log('process_checkout called in wc-checkout  ');
 		try {
 			if ( empty( $_POST['_wpnonce'] ) || ! wp_verify_nonce( $_POST['_wpnonce'], 'woocommerce-process_checkout' ) ) {
 				WC()->session->set( 'refresh_totals', true );
@@ -936,6 +937,7 @@ class WC_Checkout {
 
 			$errors      = new WP_Error();
 			$posted_data = $this->get_posted_data();
+			$this->log('==>' . print_r($this->get_posted_data(), true));
 
 			// Update session for customer and totals.
 			$this->update_session( $posted_data );
@@ -948,6 +950,10 @@ class WC_Checkout {
 			}
 
 			if ( empty( $posted_data['woocommerce_checkout_update_totals'] ) && 0 === wc_notice_count( 'error' ) ) {
+
+				// $this->log(print_r('br' . $posted_data));
+				$this->log('==>' . print_r($posted_data));
+
 				$this->process_customer( $posted_data );
 				$order_id = $this->create_order( $posted_data );
 				$order    = wc_get_order( $order_id );
@@ -969,6 +975,17 @@ class WC_Checkout {
 		}
 		$this->send_ajax_failure_response();
 	}
+
+	public function log( $message ){
+	   if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
+		   file_put_contents(dirname( __FILE__ ).'/log.txt', 'Xendit Logs'."\r\n");
+	   }
+
+	   $debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
+	   $fp = fopen( $debug_log_file_name, "a" );
+	   fwrite( $fp, $message );
+	   fclose( $fp );
+   }
 
 	/**
 	 * Get a posted address field after sanitization and validation.

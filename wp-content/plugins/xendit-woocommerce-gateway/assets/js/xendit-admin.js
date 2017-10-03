@@ -42,7 +42,7 @@ jQuery( function( $ ) {
 
 			$( '#woocommerce_xendit_testmode' ).change();
 
-			// Toggle Stripe Checkout settings.
+			// Toggle Xendit Checkout settings.
 			$( '#woocommerce_xendit_xendit_checkout' ).change( function() {
 				if ( $( this ).is( ':checked' ) ) {
 					$( '#woocommerce_xendit_xendit_checkout_locale, #woocommerce_xendit_xendit_bitcoin, #woocommerce_xendit_xendit_checkout_image' ).closest( 'tr' ).show();

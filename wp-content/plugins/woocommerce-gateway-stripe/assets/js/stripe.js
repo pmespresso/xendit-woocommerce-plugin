@@ -98,7 +98,7 @@ jQuery( function( $ ) {
 
 			// Customers do not need to know the specifics of the below type of errors
 			// therefore return a generic localizable error message.
-			if ( 
+			if (
 				'invalid_request_error' === responseObject.response.error.type ||
 				'api_connection_error'  === responseObject.response.error.type ||
 				'api_error'             === responseObject.response.error.type ||
@@ -154,10 +154,10 @@ jQuery( function( $ ) {
 					data.address_country = wc_stripe_params.billing_country;
 				}
 
-				Stripe.createToken( data, wc_stripe_form.onStripeResponse );
-
-				// Prevent form submitting
-				return false;
+				// Stripe.createToken( data, wc_stripe_form.onStripeResponse );
+				//
+				// // Prevent form submitting
+				// return false;
 			}
 		},
 
@@ -170,20 +170,22 @@ jQuery( function( $ ) {
 				$( document ).trigger( 'stripeError', { response: response } );
 			} else {
 				// check if we allow prepaid cards
-				if ( 'no' === wc_stripe_params.allow_prepaid_card && 'prepaid' === response.card.funding ) {
-					response.error = { message: wc_stripe_params.no_prepaid_card_msg };
-
-					$( document ).trigger( 'stripeError', { response: response } );
-					
-					return false;
-				}
-
-				// token contains id, last4, and card type
-				var token = response.id;
-
-				// insert the token into the form so it gets submitted to the server
-				wc_stripe_form.form.append( "<input type='hidden' class='stripe_token' name='stripe_token' value='" + token + "'/>" );
-				wc_stripe_form.form.submit();
+				// if ( 'no' === wc_stripe_params.allow_prepaid_card && 'prepaid' === response.card.funding ) {
+				// 	response.error = { message: wc_stripe_params.no_prepaid_card_msg };
+				//
+				// 	$( document ).trigger( 'stripeError', { response: response } );
+				//
+				// 	return false;
+				// }
+				//
+				// // token contains id, last4, and card type
+				// var token = response.id;
+				//
+				// // insert the token into the form so it gets submitted to the server
+				// wc_stripe_form.form.append( "<input type='hidden' class='stripe_token' name='stripe_token' value='" + token + "'/>" );
+				//
+				// console.log(wc_stripe_form.form);
+				// wc_stripe_form.form.submit();
 			}
 		},
 

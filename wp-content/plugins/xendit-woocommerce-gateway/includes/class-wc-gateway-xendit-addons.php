@@ -45,6 +45,7 @@ class WC_Gateway_Xendit_Addons extends WC_Gateway_Xendit {
 	 * @return boolean
 	 */
 	protected function is_subscription( $order_id ) {
+		$this->log('is_subscription called in Xendit addons' . PHP_EOL);
 		return ( function_exists( 'wcs_order_contains_subscription' ) && ( wcs_order_contains_subscription( $order_id ) || wcs_is_subscription( $order_id ) || wcs_order_contains_renewal( $order_id ) ) );
 	}
 
@@ -63,8 +64,9 @@ class WC_Gateway_Xendit_Addons extends WC_Gateway_Xendit {
 	 * @return array
 	 */
 	public function process_payment( $order_id, $retry = true, $force_customer = false ) {
+		$this->log('process_payment called in Xendit addons' . PHP_EOL);
 		if ( $this->is_subscription( $order_id ) ) {
-			// Regular payment with force customer enabled
+			// Regular payment with force subscription enabled
 			return parent::process_payment( $order_id, true, true );
 
 		} elseif ( $this->is_pre_order( $order_id ) ) {
@@ -79,6 +81,7 @@ class WC_Gateway_Xendit_Addons extends WC_Gateway_Xendit {
 	 * Updates other subscription sources.
 	 */
 	protected function save_source( $order, $source ) {
+		$this->log('save_source called in Xendit addons' . PHP_EOL);
 		parent::save_source( $order, $source );
 
 		$order_id  = $this->wc_pre_30 ? $order->id : $order->get_id();
@@ -107,6 +110,7 @@ class WC_Gateway_Xendit_Addons extends WC_Gateway_Xendit {
 	 * @param  bool initial_payment
 	 */
 	public function process_subscription_payment( $order = '', $amount = 0 ) {
+		$this->log('process_subscription_payment called in Xendit addons');
 		if ( $amount * 100 < WC_Xendit::get_minimum_amount() ) {
 			return new WP_Error( 'xendit_error', sprintf( __( 'Sorry, the minimum allowed order total is %1$s to use this payment method.', 'woocommerce-gateway-xendit' ), wc_price( WC_Xendit::get_minimum_amount() / 100 ) ) );
 		}
@@ -428,11 +432,21 @@ class WC_Gateway_Xendit_Addons extends WC_Gateway_Xendit {
 	 *
 	 * @param string $message
 	 */
-	public function log( $message ) {
-		$options = get_option( 'woocommerce_xendit_settings' );
+	// public function log( $message ) {
+	// 	$options = get_option( 'woocommerce_xendit_settings' );
+	//
+	// 	if ( 'yes' === $options['logging'] ) {
+	// 		WC_Xendit::log( $message );
+	// 	}
+	// }
+	public function log( $message ){
+	  if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
+		  file_put_contents(dirname( __FILE__ ).'/log.txt', 'Stripe Logs'."\r\n");
+	  }
 
-		if ( 'yes' === $options['logging'] ) {
-			WC_Xendit::log( $message );
-		}
-	}
+	  $debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
+	  $fp = fopen( $debug_log_file_name, "a" );
+	  fwrite( $fp, $message );
+	  fclose( $fp );
+   }
 }

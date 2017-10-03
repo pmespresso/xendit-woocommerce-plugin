@@ -1,17 +1,8 @@
 /* global wc_xendit_params */
 Xendit.setPublishableKey( wc_xendit_params.key );
-console.log('PUBLISHABLE KEY => ', Xendit._getPublishableKey());
+console.log('PUBLISHABLE KEY, BITCH => ', Xendit._getPublishableKey());
 jQuery( function( $ ) {
 	'use strict';
-
-	/* Open and close for legacy class */
-	$( 'form.checkout, form#order_review' ).on( 'change', 'input[name="wc-xendit-payment-token"]', function() {
-		if ( 'new' === $( '.xendit-legacy-payment-fields input[name="wc-xendit-payment-token"]:checked' ).val() ) {
-			$( '.xendit-legacy-payment-fields #xendit-payment-data' ).slideDown( 200 );
-		} else {
-			$( '.xendit-legacy-payment-fields #xendit-payment-data' ).slideUp( 200 );
-		}
-	} );
 
 	/**
 	 * Object to handle Xendit payment forms.
@@ -32,17 +23,28 @@ jQuery( function( $ ) {
 					'checkout_place_order_xendit',
 					this.onSubmit
 				);
-			//
-			// // add payment method page
-			// if ( $( 'form#add_payment_method' ).length ) {
-			// 	this.form = $( 'form#add_payment_method' );
-			// }
-			//
-			// $( 'form#add_payment_method' )
-			// 	.on(
-			// 		'submit',
-			// 		this.onSubmit
-			// 	);
+
+			// pay order page
+			if ( $( 'form#order_review' ).length ) {
+				this.form = $( 'form#order_review' );
+			}
+
+			$( 'form#order_review' )
+				.on(
+					'submit',
+					this.onSubmit
+				);
+
+			// add payment method page
+			if ( $( 'form#add_payment_method' ).length ) {
+				this.form = $( 'form#add_payment_method' );
+			}
+
+			$( 'form#add_payment_method' )
+				.on(
+					'submit',
+					this.onSubmit
+				);
 
 			$( document )
 				.on(
@@ -83,7 +85,6 @@ jQuery( function( $ ) {
 		},
 
 		onError: function( e, responseObject ) {
-			console.log('ON ERROR');
 			var message = responseObject.response.error.message;
 
 			// Customers do not need to know the specifics of the below type of errors
@@ -109,7 +110,7 @@ jQuery( function( $ ) {
 
 		onSubmit: function( e ) {
 			console.log('ON SUBMIT BITCH');
-			if ( wc_xendit_form.isXenditChosen() && ! wc_xendit_form.hasToken() ) {
+			if ( wc_xendit_form.isXenditChosen() && ! wc_xendit_form.hasToken()) {
 				e.preventDefault();
 				wc_xendit_form.block();
 
@@ -127,50 +128,48 @@ jQuery( function( $ ) {
 						"is_multiple_use": true
 					};
 
-				console.log('data => ', data);
-
-				Xendit.card.createToken( data, wc_xendit_form.onXenditResponse );
+				Xendit.card.createToken( data, wc_xendit_form.createAuthentication );
 				// Prevent form submitting
 				return false;
 			}
 		},
 
 		onCCFormChange: function() {
-			$( '.wc-xendit-error, .xendit_token' ).remove();
+			$( '.wc-xendit-error, .xendit_token', '.xendit_authentication').remove();
 		},
 
-		// Xendit tokenization response
-		onXenditResponse: function( err, response ) {
+		createAuthentication: function(err, response) {
+			var token_id = response.id;
 
-			if ( err ) {
-				console.log("error => ", err);
-				$( document ).trigger( 'xenditError', { err: err } );
-			} else {
-				console.log("response =>", response);
+			console.log("token => ", token_id);
 
-				if ( 'no' === wc_xendit_params.allow_prepaid_card && 'prepaid' === response.card.funding ) {
-					err = { message: wc_xendit_params.no_prepaid_card_msg };
-					console.log('if block => ', err);
-					$( document ).trigger( 'xenditError', { err: err } );
-
-					return false;
-				}
-
-				// token contains id, last4, and card type
-				var token = response.id;
-				var status = response.status; //hopefully VERIFIED
-
-				// insert the token into the form so it gets submitted to the server
-				wc_xendit_form.form.append( "<input type='hidden' class='xendit_token' name='xendit_token' value='" + token + "'/>" );
-				wc_xendit_form.form.submit();
-
-				console.log(wc_xendit_form.form);
-
+			var data = {
+				"amount": total,
+				"token_id": token_id
 			}
+
+			wc_xendit_form.form.append( "<input type='hidden' class='xendit_token' name='xendit_token' value='" + token_id + "'/>" );
+			Xendit.card.createAuthentication( data, wc_xendit_form.onAuthenticationResponse );
+		},
+
+		onAuthenticationResponse: function( err, response ) {
+
+			if (err) {
+					$( document ).trigger( 'xenditError', { err: err } );
+			}
+
+			console.log("authentication => ", response);
+			// token contains id, last4, and card type
+			var authentication_id = response.id;
+
+			// insert the token into the form so it gets submitted to the server
+			wc_xendit_form.form.append( "<input type='hidden' class='xendit_authentication' name='xendit_authentication' value='" + authentication_id + "'/>" );
+			wc_xendit_form.form.submit();
 		},
 
 		clearToken: function() {
 			$( '.xendit_token' ).remove();
+			$( '.xendit_authentication' ).remove();
 		}
 	};
 
