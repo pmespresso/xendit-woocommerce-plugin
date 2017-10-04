@@ -426,7 +426,11 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 */
 	public function payment_fields() {
 		$user                 = wp_get_current_user();
+		$this->log('payment fields called in Xendit with user -> ' . print_r($user, true) . PHP_EOL);
+
 		$display_tokenization = $this->supports( 'tokenization' ) && is_checkout() && $this->saved_cards;
+		$this->log('payment_fields: display tokenization -> ' . print_r($display_tokenization, true) . PHP_EOL);
+
 		$total                = WC()->cart->total;
 
 		// If paying from order, we need to get total from order not cart.

@@ -146,19 +146,20 @@ class WC_Gateway_Xendit_Addons extends WC_Gateway_Xendit {
 
 		// Process valid response
 		if ( is_wp_error( $response ) ) {
-			if ( 'missing' === $response->get_error_code() ) {
-				// If we can't link customer to a card, we try to charge by customer ID.
-				$request             = $this->generate_sub_request( $order, $this->get_source( ( $this->wc_pre_30 ? $order->customer_user : $order->get_customer_id() ) ) );
-				$request['capture']  = 'true';
-				$request['amount']   = $this->get_xendit_amount( $amount, $request['currency'] );
-				$request['metadata'] = array(
-					'payment_type'   => 'recurring',
-					'site_url'       => esc_url( get_site_url() ),
-				);
-				$response          = WC_Xendit_API::request( $request );
-			} else {
-				return $response; // Default catch all errors.
-			}
+			$this->log('CAUGHT ON IS_WP_ERRO');
+			// if ( 'missing' === $response->get_error_code() ) {
+			// 	// If we can't link customer to a card, we try to charge by customer ID.
+			// 	$request             = $this->generate_sub_request( $order, $this->get_source( ( $this->wc_pre_30 ? $order->customer_user : $order->get_customer_id() ) ) );
+			// 	$request['capture']  = 'true';
+			// 	$request['amount']   = $this->get_xendit_amount( $amount, $request['currency'] );
+			// 	$request['metadata'] = array(
+			// 		'payment_type'   => 'recurring',
+			// 		'site_url'       => esc_url( get_site_url() ),
+			// 	);
+			// 	$response          = WC_Xendit_API::request( $request );
+			// } else {
+			// 	return $response; // Default catch all errors.
+			// }
 		}
 
 		$this->process_response( $response, $order );

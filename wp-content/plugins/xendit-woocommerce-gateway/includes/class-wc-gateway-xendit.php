@@ -132,7 +132,7 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 		}
 
 		if ( $this->testmode ) {
-			$this->description .= ' ' . sprintf( __( 'TEST MODE ENABLED. In test mode, you can use the card number 4242424242424242 with any CVC and a valid expiration date or check the documentation "<a href="%s">Testing Xendit</a>" for more card numbers.', 'woocommerce-gateway-xendit' ), 'https://xendit.com/docs/testing' );
+			$this->description .= ' ' . sprintf( __( 'TEST MODE ENABLED. In test mode, you can use the card number 5200000000000056 with any CVC and a valid expiration date or check the documentation "<a href="%s">Testing Xendit</a>" for more card numbers.', 'woocommerce-gateway-xendit' ), 'https://xendit.com/docs/testing' );
 			$this->description  = trim( $this->description );
 		}
 
@@ -189,17 +189,9 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 	 * Payment form on checkout page
 	 */
 	public function payment_fields() {
-		$this->log('payment fields called in Xendit');
 		$user                 = wp_get_current_user();
-		$display_tokenization = $this->supports( 'tokenization' ) && is_checkout() && $this->saved_cards;
+		$display_tokenization = $this->supports( 'tokenization' ) && is_checkout();
 		$total                = WC()->cart->total;
-
-		// If paying from order, we need to get total from order not cart.
-		// TODO: implement pay from order. This is class-wc-xendit-payment-request.php
-		if ( isset( $_GET['pay_for_order'] ) && ! empty( $_GET['key'] ) ) {
-			$order = wc_get_order( wc_get_order_id_by_order_key( wc_clean( $_GET['key'] ) ) );
-			$total = $order->get_total();
-		}
 
 		if ( $user->ID ) {
 			$user_email = get_user_meta( $user->ID, 'billing_email', true );
@@ -224,20 +216,9 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 
 		if ( $display_tokenization ) {
 			$this->tokenization_script();
-			$this->saved_payment_methods();
 		}
 
-
-		// this is the modal checkout flow. currently not implemented
-		// TODO: implement it if subscriptions want it.
-		if ( ! $this->xendit_checkout ) {
-			$this->form();
-
-			if ( apply_filters( 'wc_xendit_display_save_payment_method_checkbox', $display_tokenization ) ) {
-				$this->save_payment_method_checkbox();
-			}
-		}
-
+		$this->form();
 		echo '</div>';
 	}
 
@@ -352,6 +333,24 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 	    return $randomString;
 	}
 
+	protected function xendit_authentication($auth_data) {
+
+		$auth_id = '';
+		echo '<script>
+			Xendit.card.createAuthentication('.$auth_data.', function(err, response) {
+				if (err) {
+					console.log(err);
+				}
+
+				console.log(response);
+
+			});
+		</script>';
+
+
+		return $auth_id;
+	}
+
 
 	/**
 	 * Generate the request for the payment.
@@ -359,20 +358,22 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 	 * @param  object $source
 	 * @return array()
 	 */
-	protected function generate_payment_request( $order, $source ) {
+	protected function generate_payment_request( $order, $xendit_token ) {
 
-		$this->log("=== generate_payment_request === with source -> " . print_r($source->source, true) . PHP_EOL);
+		$this->log("=== generate_payment_request === with token -> " . print_r($xendit_token, true) . PHP_EOL);
 
-		$token_id = wc_clean( $_POST['wc-xendit-payment-token'] );
-		$token    = WC_Payment_Tokens::get( $source->source );
+		$amount = $this->get_xendit_amount( $order->get_total(), $post_data['currency'] );
+		$token_id = wc_clean( $_POST['xendit_token'] ? $_POST['xendit_token'] : $xendit_token->source );
+		$auth_id = wc_clean( $_POST['xendit_authentication'] ? $_POST['xendit_authentication'] : false);
 
-		$this->log( '$token_id -> ' . print_r($token_id, true) . PHP_EOL);
-		$this->log( '$token -> ' . print_r($token, true) . PHP_EOL);
+		if (! $auth_id ) {
+			$auth_id = $this->xendit_authentication($auth_data);
+		}
 
 		$post_data                = array();
-		$post_data['amount']      = $this->get_xendit_amount( $order->get_total(), $post_data['currency'] );
-		$post_data['token_id']    = wc_clean( $_POST['xendit_token'] ? $_POST['xendit_token'] : $token );
-		$post_data['authentication_id']  = wc_clean( $_POST['xendit_authentication'] ? $_POST['xendit_authentication'] : $auth);
+		$post_data['amount']      = $amount;
+		$post_data['token_id']    = $token_id;
+		$post_data['authentication_id']  = $auth_id;
 		$post_data['external_id'] = $this->generate_external_id();
 
 		return $post_data;
@@ -500,7 +501,15 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 				$this->log( "Info: Begin processing payment for order $order_id for the amount of {$order->get_total()}" );
 				$this->log('$POST -> ' . print_r($POST, true));
 				// Make the request.
-				$response = WC_Xendit_API::request( $this->generate_payment_request( $order, $source ) );
+
+				if (isset( $_POST['wc-xendit-payment-token'] ) && 'new' !== $_POST['wc-xendit-payment-token'] ) {
+					$token_id = wc_clean( $_POST['wc-xendit-payment-token'] );
+					$token    = WC_Payment_Tokens::get( $source->source );
+
+					$xendit_token = $token->get_token();
+				}
+
+				$response = WC_Xendit_API::request( $this->generate_payment_request( $order, $xendit_token ) );
 
 				$this->log('card exp year -> ' . print_r(wc_clean($_POST['year']), true) . PHP_EOL);
 
