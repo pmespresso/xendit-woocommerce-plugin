@@ -649,8 +649,6 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 * @return object
 	 */
 	protected function get_source( $user_id, $force_customer = false ) {
-		$this->log('get_source called in Stripe with user id => ' . print_r($user_id, true));
-
 		$stripe_customer = new WC_Stripe_Customer( $user_id );
 		$force_customer  = apply_filters( 'wc_stripe_force_customer_creation', $force_customer, $stripe_customer );
 		$stripe_source   = false;
@@ -658,9 +656,6 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 
 		// New CC info was entered and we have a new token to process
 		if ( isset( $_POST['stripe_token'] ) ) {
-
-			$this->log(print_r($_POST['stripe_token'], true));
-
 			$stripe_token     = wc_clean( $_POST['stripe_token'] );
 			$maybe_saved_card = isset( $_POST['wc-stripe-new-payment-method'] ) && ! empty( $_POST['wc-stripe-new-payment-method'] );
 
@@ -709,7 +704,6 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 * @return object
 	 */
 	protected function get_order_source( $order = null ) {
-		$this->log('get_order_source called in Stripe');
 		$stripe_customer = new WC_Stripe_Customer();
 		$stripe_source   = false;
 		$token_id        = false;
@@ -745,8 +739,6 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 * @return array|void
 	 */
 	public function process_payment( $order_id, $retry = true, $force_customer = false ) {
-		$this->log('process payment called in Stripe');
-
 		try {
 			$order  = wc_get_order( $order_id );
 			$source = $this->get_source( get_current_user_id(), $force_customer );
@@ -759,7 +751,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 
 			// Store source to order meta.
 			$this->save_source( $order, $source );
-
+			$this->log('processing Stripe payment in process_payment()');
 			// Result from Stripe API request.
 			$response = null;
 
@@ -800,6 +792,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 
 				// Process valid response.
 				$this->process_response( $response, $order );
+				$this->log('processing response ->  ' . print_r($response, true));
 			} else {
 				$order->payment_complete();
 			}
@@ -997,14 +990,9 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 	 *
 	 * @param string $message
 	 */
-	 public function log( $message ){
- 	   if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
- 		   file_put_contents(dirname( __FILE__ ).'/log.txt', 'Stripe Logs'."\r\n");
- 	   }
-
- 	   $debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
- 	   $fp = fopen( $debug_log_file_name, "a" );
- 	   fwrite( $fp, $message );
- 	   fclose( $fp );
-    }
+	public function log( $message ) {
+		if ( $this->logging ) {
+			WC_Stripe::log( $message );
+		}
+	}
 }

@@ -45,7 +45,6 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 * @return boolean
 	 */
 	protected function is_subscription( $order_id ) {
-		$this->log('is_subscription called in Stripe addons' . PHP_EOL);
 		return ( function_exists( 'wcs_order_contains_subscription' ) && ( wcs_order_contains_subscription( $order_id ) || wcs_is_subscription( $order_id ) || wcs_order_contains_renewal( $order_id ) ) );
 	}
 
@@ -64,9 +63,9 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 * @return array
 	 */
 	public function process_payment( $order_id, $retry = true, $force_customer = false ) {
-		$this->log('process_payment called in Stripe addons');
 		if ( $this->is_subscription( $order_id ) ) {
 			// Regular payment with force customer enabled
+			$this->log('this order ' . print_r($order_id, true) . ' is a subscription');
 			return parent::process_payment( $order_id, true, true );
 
 		} elseif ( $this->is_pre_order( $order_id ) ) {
@@ -81,13 +80,13 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 * Updates other subscription sources.
 	 */
 	protected function save_source( $order, $source ) {
-		$this->log('save_source called in Stripe addons');
 		parent::save_source( $order, $source );
 
 		$order_id  = $this->wc_pre_30 ? $order->id : $order->get_id();
 
 		// Also store it on the subscriptions being purchased or paid for in the order
 		if ( function_exists( 'wcs_order_contains_subscription' ) && wcs_order_contains_subscription( $order_id ) ) {
+			$this->log('wcs_order_contains_subscription -> ' . print_r($order_id, true));
 			$subscriptions = wcs_get_subscriptions_for_order( $order_id );
 		} elseif ( function_exists( 'wcs_order_contains_renewal' ) && wcs_order_contains_renewal( $order_id ) ) {
 			$subscriptions = wcs_get_subscriptions_for_renewal_order( $order_id );
@@ -96,6 +95,7 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 		}
 
 		foreach ( $subscriptions as $subscription ) {
+			$this->log('saving Stripe source with subscription' . print_r($subscription->id, true));
 			$subscription_id = $this->wc_pre_30 ? $subscription->id : $subscription->get_id();
 			update_post_meta( $subscription_id, '_stripe_customer_id', $source->customer );
 			update_post_meta( $subscription_id, '_stripe_card_id', $source->source );
@@ -110,7 +110,6 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 * @param  bool initial_payment
 	 */
 	public function process_subscription_payment( $order = '', $amount = 0 ) {
-		$this->log('process_subscription_payment called in Stripe addons');
 		if ( $amount * 100 < WC_Stripe::get_minimum_amount() ) {
 			return new WP_Error( 'stripe_error', sprintf( __( 'Sorry, the minimum allowed order total is %1$s to use this payment method.', 'woocommerce-gateway-stripe' ), wc_price( WC_Stripe::get_minimum_amount() / 100 ) ) );
 		}
@@ -129,6 +128,8 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 		}
 
 		$order_id = $this->wc_pre_30 ? $order->id : $order->get_id();
+
+		$this->log( 'processing subscription in Stripe-Addons ');
 		$this->log( "Info: Begin processing subscription payment for order {$order_id} for the amount of {$amount}" );
 
 		// Make the request
@@ -278,7 +279,6 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 * @param $renewal_order WC_Order A WC_Order object created to record the renewal payment.
 	 */
 	public function scheduled_subscription_payment( $amount_to_charge, $renewal_order ) {
-		$this->log('scheduled_subscription_payment called in Stripe addons');
 		$response = $this->process_subscription_payment( $renewal_order, $amount_to_charge );
 
 		if ( is_wp_error( $response ) ) {
@@ -333,7 +333,6 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 * @return array
 	 */
 	public function add_subscription_payment_meta( $payment_meta, $subscription ) {
-		$this->log('add_subscription_payment_meta called in Stripe addons');
 		$payment_meta[ $this->id ] = array(
 			'post_meta' => array(
 				'_stripe_customer_id' => array(
@@ -434,21 +433,11 @@ class WC_Gateway_Stripe_Addons extends WC_Gateway_Stripe {
 	 *
 	 * @param string $message
 	 */
-	// public function log( $message ) {
-	// 	$options = get_option( 'woocommerce_stripe_settings' );
-	//
-	// 	if ( 'yes' === $options['logging'] ) {
-	// 		WC_Stripe::log( $message );
-	// 	}
-	// }
-	public function log( $message ){
-	  if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
-		  file_put_contents(dirname( __FILE__ ).'/log.txt', 'Stripe Logs'."\r\n");
-	  }
+	public function log( $message ) {
+		$options = get_option( 'woocommerce_stripe_settings' );
 
-	  $debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
-	  $fp = fopen( $debug_log_file_name, "a" );
-	  fwrite( $fp, $message );
-	  fclose( $fp );
-   }
+		if ( 'yes' === $options['logging'] ) {
+			WC_Stripe::log( $message );
+		}
+	}
 }

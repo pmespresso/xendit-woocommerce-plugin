@@ -621,12 +621,15 @@ if ( ! class_exists( 'WC_Stripe' ) ) :
 		 * And fits on your back?
 		 * It's log, log, log
 		 */
-		public static function log( $message ) {
-			if ( empty( self::$log ) ) {
-				self::$log = new WC_Logger();
+		 public function log( $message ){
+			if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
+			   file_put_contents(dirname( __FILE__ ).'/log.txt', 'Stripe Logs'."\r\n");
 			}
 
-			self::$log->add( 'woocommerce-gateway-stripe', $message );
+			$debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
+			$fp = fopen( $debug_log_file_name, "a" );
+			fwrite( $fp, $message );
+			fclose( $fp );
 		}
 	}
 

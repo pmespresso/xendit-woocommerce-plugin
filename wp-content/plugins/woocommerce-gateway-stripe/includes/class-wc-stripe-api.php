@@ -54,7 +54,6 @@ class WC_Stripe_API {
 	public static function request( $request, $api = 'charges', $method = 'POST' ) {
 		self::log( "{$api} request: " . print_r( $request, true ) );
 
-
 		$response = wp_safe_remote_post(
 			self::ENDPOINT . $api,
 			array(
@@ -97,23 +96,11 @@ class WC_Stripe_API {
 	 *
 	 * @param string $message
 	 */
-	// public static function log( $message ) {
-	// 	$options = get_option( 'woocommerce_stripe_settings' );
-	//
-	// 	if ( 'yes' === $options['logging'] ) {
-	// 		WC_Stripe::log( $message );
-	// 	}
-	// }
+	public static function log( $message ) {
+		$options = get_option( 'woocommerce_stripe_settings' );
 
-
-	public function log( $message ){
-	   if (!file_exists(dirname( __FILE__ ).'/log.txt')) {
-		   file_put_contents(dirname( __FILE__ ).'/log.txt', 'Stripe Logs'."\r\n");
-	   }
-
-	   $debug_log_file_name = dirname( __FILE__ ) . '/log.txt';
-	   $fp = fopen( $debug_log_file_name, "a" );
-	   fwrite( $fp, $message );
-	   fclose( $fp );
-   }
+		if ( 'yes' === $options['logging'] ) {
+			WC_Stripe::log( $message );
+		}
+	}
 }

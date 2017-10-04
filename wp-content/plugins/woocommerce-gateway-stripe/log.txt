@@ -1,0 +1,1152 @@
+this order 144 is a subscriptionwcs_order_contains_subscription -> 144saving Stripe source with subscription ->WC_Subscription Object
+(
+    [order:protected] => 
+    [order_type] => shop_subscription
+    [cached_completed_payment_count:WC_Subscription:private] => 
+    [data_store_name:protected] => subscription
+    [object_type:protected] => subscription
+    [editable:WC_Subscription:private] => 
+    [extra_data:protected] => Array
+        (
+            [billing_period] => 
+            [billing_interval] => 1
+            [suspension_count] => 0
+            [requires_manual_renewal] => true
+            [cancelled_email_sent] => 
+            [trial_period] => 
+            [schedule_trial_end] => 
+            [schedule_next_payment] => 
+            [schedule_cancelled] => 
+            [schedule_end] => 
+            [schedule_payment_retry] => 
+            [switch_data] => Array
+                (
+                )
+
+        )
+
+    [valid_date_types:protected] => Array
+        (
+            [0] => start
+            [1] => trial_end
+            [2] => next_payment
+            [3] => last_payment
+            [4] => cancelled
+            [5] => end
+            [6] => date_created
+            [7] => date_modified
+            [8] => date_paid
+            [9] => date_completed
+            [10] => last_order_date_created
+            [11] => last_order_date_paid
+            [12] => last_order_date_completed
+            [13] => payment_retry
+        )
+
+    [deprecated_properties:WC_Subscription:private] => Array
+        (
+            [0] => start_date
+            [1] => trial_end_date
+            [2] => next_payment_date
+            [3] => end_date
+            [4] => last_payment_date
+            [5] => order
+            [6] => payment_gateway
+            [7] => requires_manual_renewal
+            [8] => suspension_count
+        )
+
+    [status_transition:protected] => 
+    [data:protected] => Array
+        (
+            [parent_id] => 144
+            [status] => pending
+            [currency] => IDR
+            [version] => 3.0.7
+            [prices_include_tax] => 
+            [date_created] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2017-10-04 00:20:45.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [date_modified] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2017-10-04 00:20:45.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [discount_total] => 0
+            [discount_tax] => 0
+            [shipping_total] => 0
+            [shipping_tax] => 0
+            [cart_tax] => 0
+            [total] => 100000.00
+            [total_tax] => 0
+            [customer_id] => 1
+            [order_key] => wc_order_59d4295e32ea6
+            [billing] => Array
+                (
+                    [first_name] => YJ
+                    [last_name] => Kim
+                    [company] => 
+                    [address_1] => 2419 Durant Avenue
+                    [address_2] => Apt 31
+                    [city] => Berkeley
+                    [state] => CA
+                    [postcode] => 94704
+                    [country] => US
+                    [email] => yjkimjunior@gmail.com
+                    [phone] => 15109902644
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => 
+                    [last_name] => 
+                    [company] => 
+                    [address_1] => 
+                    [address_2] => 
+                    [city] => 
+                    [state] => 
+                    [postcode] => 
+                    [country] => 
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Credit Card (Stripe)
+            [transaction_id] => 
+            [customer_ip_address] => ::1
+            [customer_user_agent] => mozilla/5.0 (macintosh; intel mac os x 10_12_6) applewebkit/537.36 (khtml, like gecko) chrome/61.0.3163.100 safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 
+            [date_paid] => 
+            [cart_hash] => 1bb0e32a996125ec3b19ce816327ddf3
+            [billing_period] => month
+            [billing_interval] => 1
+            [suspension_count] => 0
+            [requires_manual_renewal] => 
+            [cancelled_email_sent] => 
+            [trial_period] => 
+            [schedule_trial_end] => 
+            [schedule_next_payment] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2017-11-04 00:20:45.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [schedule_cancelled] => 
+            [schedule_end] => WC_DateTime Object
+                (
+                    [utc_offset:protected] => 0
+                    [date] => 2018-03-04 00:20:45.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [schedule_payment_retry] => 
+            [switch_data] => 
+        )
+
+    [items:protected] => Array
+        (
+        )
+
+    [items_to_delete:protected] => Array
+        (
+        )
+
+    [cache_group:protected] => orders
+    [id:protected] => 145
+    [changes:protected] => Array
+        (
+        )
+
+    [object_read:protected] => 1
+    [default_data:protected] => Array
+        (
+            [parent_id] => 0
+            [status] => 
+            [currency] => 
+            [version] => 
+            [prices_include_tax] => 
+            [date_created] => 
+            [date_modified] => 
+            [discount_total] => 0
+            [discount_tax] => 0
+            [shipping_total] => 0
+            [shipping_tax] => 0
+            [cart_tax] => 0
+            [total] => 0
+            [total_tax] => 0
+            [customer_id] => 0
+            [order_key] => 
+            [billing] => Array
+                (
+                    [first_name] => 
+                    [last_name] => 
+                    [company] => 
+                    [address_1] => 
+                    [address_2] => 
+                    [city] => 
+                    [state] => 
+                    [postcode] => 
+                    [country] => 
+                    [email] => 
+                    [phone] => 
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => 
+                    [last_name] => 
+                    [company] => 
+                    [address_1] => 
+                    [address_2] => 
+                    [city] => 
+                    [state] => 
+                    [postcode] => 
+                    [country] => 
+                )
+
+            [payment_method] => 
+            [payment_method_title] => 
+            [transaction_id] => 
+            [customer_ip_address] => 
+            [customer_user_agent] => 
+            [created_via] => 
+            [customer_note] => 
+            [date_completed] => 
+            [date_paid] => 
+            [cart_hash] => 
+            [billing_period] => 
+            [billing_interval] => 1
+            [suspension_count] => 0
+            [requires_manual_renewal] => true
+            [cancelled_email_sent] => 
+            [trial_period] => 
+            [schedule_trial_end] => 
+            [schedule_next_payment] => 
+            [schedule_cancelled] => 
+            [schedule_end] => 
+            [schedule_payment_retry] => 
+            [switch_data] => Array
+                (
+                )
+
+        )
+
+    [data_store:protected] => WC_Data_Store Object
+        (
+            [instance:WC_Data_Store:private] => WCS_Subscription_Data_Store_CPT Object
+                (
+                    [subscription_internal_meta_keys:protected] => Array
+                        (
+                            [0] => _schedule_trial_end
+                            [1] => _schedule_next_payment
+                            [2] => _schedule_cancelled
+                            [3] => _schedule_end
+                            [4] => _schedule_payment_retry
+                            [5] => _subscription_switch_data
+                        )
+
+                    [subscription_meta_keys_to_props:protected] => Array
+                        (
+                            [_billing_period] => billing_period
+                            [_billing_interval] => billing_interval
+                            [_suspension_count] => suspension_count
+                            [_cancelled_email_sent] => cancelled_email_sent
+                            [_requires_manual_renewal] => requires_manual_renewal
+                            [_trial_period] => trial_period
+                            [_schedule_trial_end] => schedule_trial_end
+                            [_schedule_next_payment] => schedule_next_payment
+                            [_schedule_cancelled] => schedule_cancelled
+                            [_schedule_end] => schedule_end
+                            [_schedule_payment_retry] => schedule_payment_retry
+                            [_subscription_switch_data] => switch_data
+                        )
+
+                    [internal_meta_keys:protected] => Array
+                        (
+                            [0] => _parent_id
+                            [1] => _status
+                            [2] => _currency
+                            [3] => _version
+                            [4] => _prices_include_tax
+                            [5] => _date_created
+                            [6] => _date_modified
+                            [7] => _discount_total
+                            [8] => _discount_tax
+                            [9] => _shipping_total
+                            [10] => _shipping_tax
+                            [11] => _cart_tax
+                            [12] => _total
+                            [13] => _total_tax
+                            [14] => _customer_id
+                            [15] => _order_key
+                            [16] => _billing
+                            [17] => _shipping
+                            [18] => _payment_method
+                            [19] => _payment_method_title
+                            [20] => _transaction_id
+                            [21] => _customer_ip_address
+                            [22] => _customer_user_agent
+                            [23] => _created_via
+                            [24] => _customer_note
+                            [25] => _date_completed
+                            [26] => _date_paid
+                            [27] => _cart_hash
+                            [28] => _billing_period
+                            [29] => _billing_interval
+                            [30] => _suspension_count
+                            [31] => _requires_manual_renewal
+                            [32] => _cancelled_email_sent
+                            [33] => _trial_period
+                            [34] => _schedule_trial_end
+                            [35] => _schedule_next_payment
+                            [36] => _schedule_cancelled
+                            [37] => _schedule_end
+                            [38] => _schedule_payment_retry
+                            [39] => _switch_data
+                            [40] => _customer_user
+                            [41] => _order_key
+                            [42] => _order_currency
+                            [43] => _billing_first_name
+                            [44] => _billing_last_name
+                            [45] => _billing_company
+                            [46] => _billing_address_1
+                            [47] => _billing_address_2
+                            [48] => _billing_city
+                            [49] => _billing_state
+                            [50] => _billing_postcode
+                            [51] => _billing_country
+                            [52] => _billing_email
+                            [53] => _billing_phone
+                            [54] => _shipping_first_name
+                            [55] => _shipping_last_name
+                            [56] => _shipping_company
+                            [57] => _shipping_address_1
+                            [58] => _shipping_address_2
+                            [59] => _shipping_city
+                            [60] => _shipping_state
+                            [61] => _shipping_postcode
+                            [62] => _shipping_country
+                            [63] => _completed_date
+                            [64] => _paid_date
+                            [65] => _edit_lock
+                            [66] => _edit_last
+                            [67] => _cart_discount
+                            [68] => _cart_discount_tax
+                            [69] => _order_shipping
+                            [70] => _order_shipping_tax
+                            [71] => _order_tax
+                            [72] => _order_total
+                            [73] => _payment_method
+                            [74] => _payment_method_title
+                            [75] => _transaction_id
+                            [76] => _customer_ip_address
+                            [77] => _customer_user_agent
+                            [78] => _created_via
+                            [79] => _order_version
+                            [80] => _prices_include_tax
+                            [81] => _date_completed
+                            [82] => _date_paid
+                            [83] => _payment_tokens
+                            [84] => _billing_address_index
+                            [85] => _shipping_address_index
+                            [86] => _recorded_sales
+                            [87] => _recorded_coupon_usage_counts
+                            [88] => _shipping_method
+                            [89] => _schedule_trial_end
+                            [90] => _schedule_next_payment
+                            [91] => _schedule_cancelled
+                            [92] => _schedule_end
+                            [93] => _schedule_payment_retry
+                            [94] => _subscription_switch_data
+                        )
+
+                    [meta_type:protected] => post
+                    [object_id_field_for_meta:protected] => 
+                )
+
+            [stores:WC_Data_Store:private] => Array
+                (
+                    [coupon] => WC_Coupon_Data_Store_CPT
+                    [customer] => WC_Customer_Data_Store
+                    [customer-download] => WC_Customer_Download_Data_Store
+                    [customer-session] => WC_Customer_Data_Store_Session
+                    [order] => WC_Order_Data_Store_CPT
+                    [order-refund] => WC_Order_Refund_Data_Store_CPT
+                    [order-item] => WC_Order_Item_Data_Store
+                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                    [order-item-product] => WC_Order_Item_Product_Data_Store
+                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                    [payment-token] => WC_Payment_Token_Data_Store
+                    [product] => WC_Product_Data_Store_CPT
+                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                    [product-variable] => WC_Product_Variable_Data_Store_CPT
+                    [product-variation] => WC_Product_Variation_Data_Store_CPT
+                    [shipping-zone] => WC_Shipping_Zone_Data_Store
+                    [subscription] => WCS_Subscription_Data_Store_CPT
+                    [product-variable-subscription] => WC_Product_Variable_Data_Store_CPT
+                    [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
+                    [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
+                )
+
+            [current_class_name:WC_Data_Store:private] => WCS_Subscription_Data_Store_CPT
+            [object_type:WC_Data_Store:private] => subscription
+        )
+
+    [meta_data:protected] => Array
+        (
+        )
+
+)
+processing Stripe payment in process_payment()Info: Begin processing payment for order 144 for the amount of 100000.00charges request: Array
+(
+    [currency] => idr
+    [amount] => 10000000
+    [description] => stripe_woo - Order 144
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => YJ Kim
+            [Customer Email] => yjkimjunior@gmail.com
+        )
+
+    [customer] => cus_BTtwJRz3WsA32I
+    [source] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+)
+Processing response: stdClass Object
+(
+    [id] => ch_1B90d1Gs7PWsbwkW2finZo5N
+    [object] => charge
+    [amount] => 10000000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B90d1Gs7PWsbwkWAu8n4UhG
+            [object] => balance_transaction
+            [amount] => 731
+            [available_on] => 1507680000
+            [created] => 1507076447
+            [currency] => usd
+            [description] => stripe_woo - Order 144
+            [fee] => 51
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 51
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 680
+            [source] => ch_1B90d1Gs7PWsbwkW2finZo5N
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1B90d1Gs7PWsbwkW2finZo5N
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1507076447
+    [currency] => idr
+    [customer] => cus_BTtwJRz3WsA32I
+    [description] => stripe_woo - Order 144
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => YJ Kim
+            [Customer Email] => yjkimjunior@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1B90d1Gs7PWsbwkW2finZo5N/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+            [object] => card
+            [address_city] => Berkeley
+            [address_country] => US
+            [address_line1] => 2419 Durant Avenue
+            [address_line1_check] => pass
+            [address_line2] => Apt 31
+            [address_state] => CA
+            [address_zip] => 94704
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_BTtwJRz3WsA32I
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2020
+            [fingerprint] => DRLIxQu6e23Kf4TX
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => YJ Kim
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+Success: Stripe charge complete (Charge ID: ch_1B90d1Gs7PWsbwkW2finZo5N)customers/cus_BTtwJRz3WsA32I/sources request: Array
+(
+    [limit] => 100
+)
+processing subscription in Stripe-Addons Info: Begin processing subscription payment for order 150 for the amount of 100000.00charges request: Array
+(
+    [currency] => idr
+    [amount] => 10000000
+    [description] => stripe_woo - Order 150
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://localhost
+        )
+
+    [customer] => cus_BTtwJRz3WsA32I
+    [source] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+)
+Processing response: stdClass Object
+(
+    [id] => ch_1B93b2Gs7PWsbwkW7kbjaalm
+    [object] => charge
+    [amount] => 10000000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B93b2Gs7PWsbwkWICjB5lHN
+            [object] => balance_transaction
+            [amount] => 731
+            [available_on] => 1507680000
+            [created] => 1507087856
+            [currency] => usd
+            [description] => stripe_woo - Order 150
+            [fee] => 51
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 51
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 680
+            [source] => ch_1B93b2Gs7PWsbwkW7kbjaalm
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1B93b2Gs7PWsbwkW7kbjaalm
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1507087856
+    [currency] => idr
+    [customer] => cus_BTtwJRz3WsA32I
+    [description] => stripe_woo - Order 150
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://localhost
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1B93b2Gs7PWsbwkW7kbjaalm/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+            [object] => card
+            [address_city] => Berkeley
+            [address_country] => US
+            [address_line1] => 2419 Durant Avenue
+            [address_line1_check] => pass
+            [address_line2] => Apt 31
+            [address_state] => CA
+            [address_zip] => 94704
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_BTtwJRz3WsA32I
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2020
+            [fingerprint] => DRLIxQu6e23Kf4TX
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => YJ Kim
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+Success: Stripe charge complete (Charge ID: ch_1B93b2Gs7PWsbwkW7kbjaalm)this order 195 is a subscriptionwcs_order_contains_subscription -> 195saving Stripe source with subscription196processing Stripe payment in process_payment()Info: Begin processing payment for order 195 for the amount of 100000.00charges request: Array
+(
+    [currency] => idr
+    [amount] => 10000000
+    [description] => stripe_woo - Order 195
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => YJ Kim
+            [Customer Email] => yjkimjunior@gmail.com
+        )
+
+    [customer] => cus_BTtwJRz3WsA32I
+    [source] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+)
+Processing response: stdClass Object
+(
+    [id] => ch_1B96UAGs7PWsbwkW77nQI2AO
+    [object] => charge
+    [amount] => 10000000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B96UAGs7PWsbwkWdTk11hmk
+            [object] => balance_transaction
+            [amount] => 731
+            [available_on] => 1507680000
+            [created] => 1507098962
+            [currency] => usd
+            [description] => stripe_woo - Order 195
+            [fee] => 51
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 51
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 680
+            [source] => ch_1B96UAGs7PWsbwkW77nQI2AO
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1B96UAGs7PWsbwkW77nQI2AO
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1507098962
+    [currency] => idr
+    [customer] => cus_BTtwJRz3WsA32I
+    [description] => stripe_woo - Order 195
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => YJ Kim
+            [Customer Email] => yjkimjunior@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1B96UAGs7PWsbwkW77nQI2AO/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+            [object] => card
+            [address_city] => Berkeley
+            [address_country] => US
+            [address_line1] => 2419 Durant Avenue
+            [address_line1_check] => pass
+            [address_line2] => Apt 31
+            [address_state] => CA
+            [address_zip] => 94704
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_BTtwJRz3WsA32I
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2020
+            [fingerprint] => DRLIxQu6e23Kf4TX
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => YJ Kim
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+Success: Stripe charge complete (Charge ID: ch_1B96UAGs7PWsbwkW77nQI2AO)processing response ->  stdClass Object
+(
+    [id] => ch_1B96UAGs7PWsbwkW77nQI2AO
+    [object] => charge
+    [amount] => 10000000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B96UAGs7PWsbwkWdTk11hmk
+            [object] => balance_transaction
+            [amount] => 731
+            [available_on] => 1507680000
+            [created] => 1507098962
+            [currency] => usd
+            [description] => stripe_woo - Order 195
+            [fee] => 51
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 51
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 680
+            [source] => ch_1B96UAGs7PWsbwkW77nQI2AO
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1B96UAGs7PWsbwkW77nQI2AO
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1507098962
+    [currency] => idr
+    [customer] => cus_BTtwJRz3WsA32I
+    [description] => stripe_woo - Order 195
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => YJ Kim
+            [Customer Email] => yjkimjunior@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1B96UAGs7PWsbwkW77nQI2AO/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+            [object] => card
+            [address_city] => Berkeley
+            [address_country] => US
+            [address_line1] => 2419 Durant Avenue
+            [address_line1_check] => pass
+            [address_line2] => Apt 31
+            [address_state] => CA
+            [address_zip] => 94704
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_BTtwJRz3WsA32I
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2020
+            [fingerprint] => DRLIxQu6e23Kf4TX
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => YJ Kim
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+processing subscription in Stripe-Addons Info: Begin processing subscription payment for order 199 for the amount of 100000.00charges request: Array
+(
+    [currency] => idr
+    [amount] => 10000000
+    [description] => stripe_woo - Order 199
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://localhost
+        )
+
+    [customer] => cus_BTtwJRz3WsA32I
+    [source] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+)
+Processing response: stdClass Object
+(
+    [id] => ch_1B96UNGs7PWsbwkWzCEt2PYO
+    [object] => charge
+    [amount] => 10000000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B96UNGs7PWsbwkWh0z3DvOv
+            [object] => balance_transaction
+            [amount] => 731
+            [available_on] => 1507680000
+            [created] => 1507098975
+            [currency] => usd
+            [description] => stripe_woo - Order 199
+            [fee] => 51
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 51
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 680
+            [source] => ch_1B96UNGs7PWsbwkWzCEt2PYO
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1B96UNGs7PWsbwkWzCEt2PYO
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1507098975
+    [currency] => idr
+    [customer] => cus_BTtwJRz3WsA32I
+    [description] => stripe_woo - Order 199
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://localhost
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1B96UNGs7PWsbwkWzCEt2PYO/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1B7BJNGs7PWsbwkWWgvNJXlR
+            [object] => card
+            [address_city] => Berkeley
+            [address_country] => US
+            [address_line1] => 2419 Durant Avenue
+            [address_line1_check] => pass
+            [address_line2] => Apt 31
+            [address_state] => CA
+            [address_zip] => 94704
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_BTtwJRz3WsA32I
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2020
+            [fingerprint] => DRLIxQu6e23Kf4TX
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => YJ Kim
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+Success: Stripe charge complete (Charge ID: ch_1B96UNGs7PWsbwkWzCEt2PYO)

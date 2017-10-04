@@ -111,7 +111,7 @@ if ( ! class_exists( 'WC_Xendit' ) ) :
 			add_action( 'woocommerce_order_status_on-hold_to_completed', array( $this, 'capture_payment' ) );
 			add_action( 'woocommerce_order_status_on-hold_to_cancelled', array( $this, 'cancel_payment' ) );
 			add_action( 'woocommerce_order_status_on-hold_to_refunded', array( $this, 'cancel_payment' ) );
-			add_filter( 'woocommerce_get_customer_payment_tokens', array( $this, 'woocommerce_get_customer_payment_tokens' ), 10, 3 );
+			// add_filter( 'woocommerce_get_customer_payment_tokens', array( $this, 'woocommerce_get_customer_payment_tokens' ), 10, 3 );
 			add_action( 'woocommerce_payment_token_deleted', array( $this, 'woocommerce_payment_token_deleted' ), 10, 2 );
 			add_action( 'woocommerce_payment_token_set_default', array( $this, 'woocommerce_payment_token_set_default' ) );
 			add_action( 'wp_ajax_xendit_dismiss_request_api_notice', array( $this, 'dismiss_request_api_notice' ) );

@@ -128,6 +128,10 @@ jQuery( function( $ ) {
 						"is_multiple_use": true
 					};
 
+				wc_xendit_form.form.append( "<input type='hidden' class='year' name='year' value='" + data.card_exp_year + "'/>" );
+				wc_xendit_form.form.append( "<input type='hidden' class='month' name='month' value='" + data.card_exp_month + "'/>" );
+
+
 				Xendit.card.createToken( data, wc_xendit_form.createAuthentication );
 				// Prevent form submitting
 				return false;
@@ -141,7 +145,7 @@ jQuery( function( $ ) {
 		createAuthentication: function(err, response) {
 			var token_id = response.id;
 
-			console.log("token => ", token_id);
+			console.log("token assshole => ", token_id);
 
 			var data = {
 				"amount": total,

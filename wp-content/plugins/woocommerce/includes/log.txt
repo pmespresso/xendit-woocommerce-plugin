@@ -1,0 +1,2274 @@
+Xendit Logs
+process_checkout called in wc-checkout1process_checkout called in wc-checkout<br>1process_checkout called in wc-checkout  ==>Array==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 1
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => 
+    [billing_last_name] => 
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 
+    [billing_address_2] => 
+    [billing_city] => 
+    [billing_state] => 
+    [billing_postcode] => 
+    [billing_phone] => 
+    [billing_email] => 
+    [account_password] => 
+    [order_comments] => 
+)
+process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 1
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 35
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [account_password] => xendit_woo_password
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2512 Telegraph Avenue, PMB 275
+    [billing_address_2] => 
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 5109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 1
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 35
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 40290320932
+    [billing_email] => yjkimjunior@gmail.com
+    [account_password] => 
+    [order_comments] => 
+)
+process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 1
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 35
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 40290320932
+    [billing_email] => yjkimjunior@gmail.com
+    [account_password] => Y10Gf1Ps(A1h2)qkGj
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => stripe
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1process_checkout called in wc-checkout  ==>Array
+(
+    [terms] => 0
+    [createaccount] => 0
+    [payment_method] => xendit
+    [shipping_method] => 
+    [ship_to_different_address] => 
+    [woocommerce_checkout_update_totals] => 
+    [billing_first_name] => YJ
+    [billing_last_name] => Kim
+    [billing_company] => 
+    [billing_country] => US
+    [billing_address_1] => 2419 Durant Avenue
+    [billing_address_2] => Apt 31
+    [billing_city] => Berkeley
+    [billing_state] => CA
+    [billing_postcode] => 94704
+    [billing_phone] => 15109902644
+    [billing_email] => yjkimjunior@gmail.com
+    [order_comments] => 
+)
+==>1
