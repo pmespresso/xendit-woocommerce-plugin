@@ -1,72 +1,8 @@
-called scheduled_subscription_payment in XENDIT ADDONSprocess_subscription_payment called in Xendit addonsget_order source called in Class_WC_Gateway_Xendit
-process_subscription_payment -> get_order_source -> stdClass Object
-(
-    [token_id] => 
-    [source] => 59d535334c775b4726f0d018
-)
-Info: Begin processing subscription payment for order 390 for the amount of 100000.00=== generate_payment_request === with token -> stdClass Object
-(
-    [token_id] => 
-    [source] => 59d535334c775b4726f0d018
-)
-
-subscription request is -> Array
-(
-    [amount] => 10000000
-    [token_id] => stdClass Object
-        (
-            [token_id] => 
-            [source] => 59d535334c775b4726f0d018
-        )
-
-    [authentication_id] => sexytime
-    [external_id] => g3i8DZAUA87ZaxWlh7lT7y7OxRRR43MG19EKELvtML034T1wCvr8m6MS3oybArMV
-)
-credit_card_charges request: Array
-(
-    [amount] => 10000000
-    [token_id] => stdClass Object
-        (
-            [token_id] => 
-            [source] => 59d535334c775b4726f0d018
-        )
-
-    [authentication_id] => sexytime
-    [external_id] => g3i8DZAUA87ZaxWlh7lT7y7OxRRR43MG19EKELvtML034T1wCvr8m6MS3oybArMV
-)
-
-Processing response: stdClass Object
-(
-    [error_code] => API_VALIDATION_ERROR
-    [message] => There was an error with the format submitted to the server.
-    [errors] => Array
-        (
-            [0] => stdClass Object
-                (
-                    [field] => token_id
-                    [location] => body
-                    [messages] => Array
-                        (
-                            [0] => "token_id" is required
-                        )
-
-                    [types] => Array
-                        (
-                            [0] => any.required
-                        )
-
-                )
-
-        )
-
-)
-
-CAPTURED => 1
-Successful auth: payment_scripts called in xendit
+payment_scripts called in xendit
 process_payment called in Xendit addons
 is_subscription called in Xendit addons
-this order 391 is a subscription
-process_payment called in Xendit with order_id ==> 391
+this order 404 is a subscription
+process_payment called in Xendit with order_id ==> 404
 order is => WC_Order Object
 (
     [status_transition:protected] => 
@@ -80,7 +16,7 @@ order is => WC_Order Object
             [date_created] => WC_DateTime Object
                 (
                     [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
+                    [date] => 2017-10-05 00:19:14.000000
                     [timezone_type] => 1
                     [timezone] => +00:00
                 )
@@ -88,7 +24,7 @@ order is => WC_Order Object
             [date_modified] => WC_DateTime Object
                 (
                     [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
+                    [date] => 2017-10-05 00:19:14.000000
                     [timezone_type] => 1
                     [timezone] => +00:00
                 )
@@ -101,7 +37,7 @@ order is => WC_Order Object
             [total] => 100000.00
             [total_tax] => 0
             [customer_id] => 1
-            [order_key] => wc_order_59d538b75c8a9
+            [order_key] => wc_order_59d57a82beacf
             [billing] => Array
                 (
                     [first_name] => YJ
@@ -153,7 +89,7 @@ order is => WC_Order Object
     [cache_group:protected] => orders
     [data_store_name:protected] => order
     [object_type:protected] => order
-    [id:protected] => 391
+    [id:protected] => 404
     [changes:protected] => Array
         (
         )
@@ -316,7 +252,7 @@ order is => WC_Order Object
         (
             [0] => stdClass Object
                 (
-                    [id] => 15501
+                    [id] => 15924
                     [key] => _subscription_switch_data
                     [value] => Array
                         (
@@ -344,12 +280,12 @@ above source -> Array
     [order_comments] => 
     [wc-stripe-payment-token] => 1
     [payment_method] => xendit
-    [_wpnonce] => 525e9a29e5
+    [_wpnonce] => b736485619
     [_wp_http_referer] => /checkout/?wc-ajax=update_order_review
     [year] => 2020
     [month] => 02
-    [xendit_token] => 59d538b34c775b4726f0d01d
-    [xendit_authentication] => 59d538b54c775b4726f0d01e
+    [xendit_token] => 59d57a804c775b4726f0d052
+    [xendit_authentication] => 59d57a814c775b4726f0d053
 )
 
 get_source called in Xendit with order => WC_Order Object
@@ -365,7 +301,7 @@ get_source called in Xendit with order => WC_Order Object
             [date_created] => WC_DateTime Object
                 (
                     [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
+                    [date] => 2017-10-05 00:19:14.000000
                     [timezone_type] => 1
                     [timezone] => +00:00
                 )
@@ -373,7 +309,7 @@ get_source called in Xendit with order => WC_Order Object
             [date_modified] => WC_DateTime Object
                 (
                     [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
+                    [date] => 2017-10-05 00:19:14.000000
                     [timezone_type] => 1
                     [timezone] => +00:00
                 )
@@ -386,7 +322,7 @@ get_source called in Xendit with order => WC_Order Object
             [total] => 100000.00
             [total_tax] => 0
             [customer_id] => 1
-            [order_key] => wc_order_59d538b75c8a9
+            [order_key] => wc_order_59d57a82beacf
             [billing] => Array
                 (
                     [first_name] => YJ
@@ -438,7 +374,7 @@ get_source called in Xendit with order => WC_Order Object
     [cache_group:protected] => orders
     [data_store_name:protected] => order
     [object_type:protected] => order
-    [id:protected] => 391
+    [id:protected] => 404
     [changes:protected] => Array
         (
         )
@@ -601,7 +537,7 @@ get_source called in Xendit with order => WC_Order Object
         (
             [0] => stdClass Object
                 (
-                    [id] => 15501
+                    [id] => 15924
                     [key] => _subscription_switch_data
                     [value] => Array
                         (
@@ -614,12 +550,12 @@ get_source called in Xendit with order => WC_Order Object
 )
 
 wc-xendit-payment-token -> 1
-59d538b34c775b4726f0d01dprocess_payment try block with source ==> stdClass Object
+59d57a804c775b4726f0d052process_payment try block with source ==> stdClass Object
 (
     [token_id] => 
-    [source] => 59d538b34c775b4726f0d01d
+    [source] => 59d57a804c775b4726f0d052
 )
-and order id ==> 391
+and order id ==> 404
 save_source called in Xendit addons
 save_source called in Xendit with order ==> WC_Order Object
 (
@@ -634,7 +570,7 @@ save_source called in Xendit with order ==> WC_Order Object
             [date_created] => WC_DateTime Object
                 (
                     [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
+                    [date] => 2017-10-05 00:19:14.000000
                     [timezone_type] => 1
                     [timezone] => +00:00
                 )
@@ -642,7 +578,7 @@ save_source called in Xendit with order ==> WC_Order Object
             [date_modified] => WC_DateTime Object
                 (
                     [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
+                    [date] => 2017-10-05 00:19:14.000000
                     [timezone_type] => 1
                     [timezone] => +00:00
                 )
@@ -655,7 +591,7 @@ save_source called in Xendit with order ==> WC_Order Object
             [total] => 100000.00
             [total_tax] => 0
             [customer_id] => 1
-            [order_key] => wc_order_59d538b75c8a9
+            [order_key] => wc_order_59d57a82beacf
             [billing] => Array
                 (
                     [first_name] => YJ
@@ -707,7 +643,7 @@ save_source called in Xendit with order ==> WC_Order Object
     [cache_group:protected] => orders
     [data_store_name:protected] => order
     [object_type:protected] => order
-    [id:protected] => 391
+    [id:protected] => 404
     [changes:protected] => Array
         (
         )
@@ -870,7 +806,7 @@ save_source called in Xendit with order ==> WC_Order Object
         (
             [0] => stdClass Object
                 (
-                    [id] => 15501
+                    [id] => 15924
                     [key] => _subscription_switch_data
                     [value] => Array
                         (
@@ -884,946 +820,22 @@ save_source called in Xendit with order ==> WC_Order Object
 and source ==> stdClass Object
 (
     [token_id] => 
-    [source] => 59d538b34c775b4726f0d01d
+    [source] => 59d57a804c775b4726f0d052
 )
-first subscription.getID() -> 392Info: Begin processing payment for order 391 for the amount of 100000.00$POST -> === generate_payment_request === with token -> 
+first subscription.getID() -> 405Info: Begin processing payment for order 404 for the amount of 100000.00$POST -> === generate_payment_request === with token -> 
 credit_card_charges request: Array
 (
     [amount] => 10000000
-    [token_id] => 59d538b34c775b4726f0d01d
-    [authentication_id] => 59d538b54c775b4726f0d01e
-    [external_id] => FKN7T7mKp6ghzj2ydlYZ5BJ7wyMCTJIFnksI2089AbeTOTjASXZUeHCIIbvN0oRR
-)
-
-Error Response: WP_Error Object
-(
-    [errors] => Array
-        (
-            [http_request_failed] => Array
-                (
-                    [0] => cURL error 7: Failed to connect to api.xendit.co port 443: Operation timed out
-                )
-
-        )
-
-    [error_data] => Array
-        (
-        )
-
-)
-card exp year -> 2020
-response -> WP_Error Object
-(
-    [errors] => Array
-        (
-            [xendit_error] => Array
-                (
-                    [0] => There was a problem connecting to the payment gateway.
-                )
-
-        )
-
-    [error_data] => Array
-        (
-        )
-
-)
-
-post -> Array
-(
-    [billing_first_name] => YJ
-    [billing_last_name] => Kim
-    [billing_company] => 
-    [billing_country] => US
-    [billing_address_1] => 2419 Durant Avenue
-    [billing_address_2] => Apt 31
-    [billing_city] => Berkeley
-    [billing_state] => CA
-    [billing_postcode] => 94704
-    [billing_phone] => 15109902644
-    [billing_email] => yjkimjunior@gmail.com
-    [order_comments] => 
-    [wc-stripe-payment-token] => 1
-    [payment_method] => xendit
-    [_wpnonce] => 525e9a29e5
-    [_wp_http_referer] => /checkout/?wc-ajax=update_order_review
-    [year] => 2020
-    [month] => 02
-    [xendit_token] => 59d538b34c775b4726f0d01d
-    [xendit_authentication] => 59d538b54c775b4726f0d01e
-)
-
-user -> 1
-validationError: Invalid or missing payment token fields.payment_scripts called in xendit
-process_payment called in Xendit addons
-is_subscription called in Xendit addons
-this order 391 is a subscription
-process_payment called in Xendit with order_id ==> 391
-order is => WC_Order Object
-(
-    [status_transition:protected] => 
-    [data:protected] => Array
-        (
-            [parent_id] => 0
-            [status] => pending
-            [currency] => IDR
-            [version] => 3.0.7
-            [prices_include_tax] => 
-            [date_created] => WC_DateTime Object
-                (
-                    [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
-                    [timezone_type] => 1
-                    [timezone] => +00:00
-                )
-
-            [date_modified] => WC_DateTime Object
-                (
-                    [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
-                    [timezone_type] => 1
-                    [timezone] => +00:00
-                )
-
-            [discount_total] => 0
-            [discount_tax] => 0
-            [shipping_total] => 0
-            [shipping_tax] => 0
-            [cart_tax] => 0
-            [total] => 100000.00
-            [total_tax] => 0
-            [customer_id] => 1
-            [order_key] => wc_order_59d538b75c8a9
-            [billing] => Array
-                (
-                    [first_name] => YJ
-                    [last_name] => Kim
-                    [company] => 
-                    [address_1] => 2419 Durant Avenue
-                    [address_2] => Apt 31
-                    [city] => Berkeley
-                    [state] => CA
-                    [postcode] => 94704
-                    [country] => US
-                    [email] => yjkimjunior@gmail.com
-                    [phone] => 15109902644
-                )
-
-            [shipping] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                )
-
-            [payment_method] => xendit
-            [payment_method_title] => Credit Card (Xendit)
-            [transaction_id] => 
-            [customer_ip_address] => ::1
-            [customer_user_agent] => mozilla/5.0 (macintosh; intel mac os x 10_12_6) applewebkit/537.36 (khtml, like gecko) chrome/61.0.3163.100 safari/537.36
-            [created_via] => checkout
-            [customer_note] => 
-            [date_completed] => 
-            [date_paid] => 
-            [cart_hash] => 1bb0e32a996125ec3b19ce816327ddf3
-        )
-
-    [items:protected] => Array
-        (
-        )
-
-    [items_to_delete:protected] => Array
-        (
-        )
-
-    [cache_group:protected] => orders
-    [data_store_name:protected] => order
-    [object_type:protected] => order
-    [id:protected] => 391
-    [changes:protected] => Array
-        (
-        )
-
-    [object_read:protected] => 1
-    [extra_data:protected] => Array
-        (
-        )
-
-    [default_data:protected] => Array
-        (
-            [parent_id] => 0
-            [status] => 
-            [currency] => 
-            [version] => 
-            [prices_include_tax] => 
-            [date_created] => 
-            [date_modified] => 
-            [discount_total] => 0
-            [discount_tax] => 0
-            [shipping_total] => 0
-            [shipping_tax] => 0
-            [cart_tax] => 0
-            [total] => 0
-            [total_tax] => 0
-            [customer_id] => 0
-            [order_key] => 
-            [billing] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                    [email] => 
-                    [phone] => 
-                )
-
-            [shipping] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                )
-
-            [payment_method] => 
-            [payment_method_title] => 
-            [transaction_id] => 
-            [customer_ip_address] => 
-            [customer_user_agent] => 
-            [created_via] => 
-            [customer_note] => 
-            [date_completed] => 
-            [date_paid] => 
-            [cart_hash] => 
-        )
-
-    [data_store:protected] => WC_Data_Store Object
-        (
-            [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
-                (
-                    [internal_meta_keys:protected] => Array
-                        (
-                            [0] => _customer_user
-                            [1] => _order_key
-                            [2] => _order_currency
-                            [3] => _billing_first_name
-                            [4] => _billing_last_name
-                            [5] => _billing_company
-                            [6] => _billing_address_1
-                            [7] => _billing_address_2
-                            [8] => _billing_city
-                            [9] => _billing_state
-                            [10] => _billing_postcode
-                            [11] => _billing_country
-                            [12] => _billing_email
-                            [13] => _billing_phone
-                            [14] => _shipping_first_name
-                            [15] => _shipping_last_name
-                            [16] => _shipping_company
-                            [17] => _shipping_address_1
-                            [18] => _shipping_address_2
-                            [19] => _shipping_city
-                            [20] => _shipping_state
-                            [21] => _shipping_postcode
-                            [22] => _shipping_country
-                            [23] => _completed_date
-                            [24] => _paid_date
-                            [25] => _edit_lock
-                            [26] => _edit_last
-                            [27] => _cart_discount
-                            [28] => _cart_discount_tax
-                            [29] => _order_shipping
-                            [30] => _order_shipping_tax
-                            [31] => _order_tax
-                            [32] => _order_total
-                            [33] => _payment_method
-                            [34] => _payment_method_title
-                            [35] => _transaction_id
-                            [36] => _customer_ip_address
-                            [37] => _customer_user_agent
-                            [38] => _created_via
-                            [39] => _order_version
-                            [40] => _prices_include_tax
-                            [41] => _date_completed
-                            [42] => _date_paid
-                            [43] => _payment_tokens
-                            [44] => _billing_address_index
-                            [45] => _shipping_address_index
-                            [46] => _recorded_sales
-                            [47] => _recorded_coupon_usage_counts
-                            [48] => _shipping_method
-                        )
-
-                    [meta_type:protected] => post
-                    [object_id_field_for_meta:protected] => 
-                )
-
-            [stores:WC_Data_Store:private] => Array
-                (
-                    [coupon] => WC_Coupon_Data_Store_CPT
-                    [customer] => WC_Customer_Data_Store
-                    [customer-download] => WC_Customer_Download_Data_Store
-                    [customer-session] => WC_Customer_Data_Store_Session
-                    [order] => WC_Order_Data_Store_CPT
-                    [order-refund] => WC_Order_Refund_Data_Store_CPT
-                    [order-item] => WC_Order_Item_Data_Store
-                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
-                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
-                    [order-item-product] => WC_Order_Item_Product_Data_Store
-                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
-                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
-                    [payment-token] => WC_Payment_Token_Data_Store
-                    [product] => WC_Product_Data_Store_CPT
-                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
-                    [product-variable] => WC_Product_Variable_Data_Store_CPT
-                    [product-variation] => WC_Product_Variation_Data_Store_CPT
-                    [shipping-zone] => WC_Shipping_Zone_Data_Store
-                    [subscription] => WCS_Subscription_Data_Store_CPT
-                    [product-variable-subscription] => WC_Product_Variable_Data_Store_CPT
-                    [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
-                    [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
-                )
-
-            [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
-            [object_type:WC_Data_Store:private] => order
-        )
-
-    [meta_data:protected] => Array
-        (
-            [0] => stdClass Object
-                (
-                    [id] => 15560
-                    [key] => _xendit_card_id
-                    [value] => 59d538b34c775b4726f0d01d
-                )
-
-            [1] => stdClass Object
-                (
-                    [id] => 15564
-                    [key] => _subscription_switch_data
-                    [value] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-)
-
-above source -> Array
-(
-    [billing_first_name] => YJ
-    [billing_last_name] => Kim
-    [billing_company] => 
-    [billing_country] => US
-    [billing_address_1] => 2419 Durant Avenue
-    [billing_address_2] => Apt 31
-    [billing_city] => Berkeley
-    [billing_state] => CA
-    [billing_postcode] => 94704
-    [billing_phone] => 15109902644
-    [billing_email] => yjkimjunior@gmail.com
-    [order_comments] => 
-    [wc-stripe-payment-token] => 1
-    [payment_method] => xendit
-    [_wpnonce] => 525e9a29e5
-    [_wp_http_referer] => /checkout/?wc-ajax=update_order_review
-    [year] => 2020
-    [month] => 02
-    [xendit_token] => 59d53a244c775b4726f0d020
-    [xendit_authentication] => 59d53a254c775b4726f0d021
-)
-
-get_source called in Xendit with order => WC_Order Object
-(
-    [status_transition:protected] => 
-    [data:protected] => Array
-        (
-            [parent_id] => 0
-            [status] => pending
-            [currency] => IDR
-            [version] => 3.0.7
-            [prices_include_tax] => 
-            [date_created] => WC_DateTime Object
-                (
-                    [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
-                    [timezone_type] => 1
-                    [timezone] => +00:00
-                )
-
-            [date_modified] => WC_DateTime Object
-                (
-                    [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
-                    [timezone_type] => 1
-                    [timezone] => +00:00
-                )
-
-            [discount_total] => 0
-            [discount_tax] => 0
-            [shipping_total] => 0
-            [shipping_tax] => 0
-            [cart_tax] => 0
-            [total] => 100000.00
-            [total_tax] => 0
-            [customer_id] => 1
-            [order_key] => wc_order_59d538b75c8a9
-            [billing] => Array
-                (
-                    [first_name] => YJ
-                    [last_name] => Kim
-                    [company] => 
-                    [address_1] => 2419 Durant Avenue
-                    [address_2] => Apt 31
-                    [city] => Berkeley
-                    [state] => CA
-                    [postcode] => 94704
-                    [country] => US
-                    [email] => yjkimjunior@gmail.com
-                    [phone] => 15109902644
-                )
-
-            [shipping] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                )
-
-            [payment_method] => xendit
-            [payment_method_title] => Credit Card (Xendit)
-            [transaction_id] => 
-            [customer_ip_address] => ::1
-            [customer_user_agent] => mozilla/5.0 (macintosh; intel mac os x 10_12_6) applewebkit/537.36 (khtml, like gecko) chrome/61.0.3163.100 safari/537.36
-            [created_via] => checkout
-            [customer_note] => 
-            [date_completed] => 
-            [date_paid] => 
-            [cart_hash] => 1bb0e32a996125ec3b19ce816327ddf3
-        )
-
-    [items:protected] => Array
-        (
-        )
-
-    [items_to_delete:protected] => Array
-        (
-        )
-
-    [cache_group:protected] => orders
-    [data_store_name:protected] => order
-    [object_type:protected] => order
-    [id:protected] => 391
-    [changes:protected] => Array
-        (
-        )
-
-    [object_read:protected] => 1
-    [extra_data:protected] => Array
-        (
-        )
-
-    [default_data:protected] => Array
-        (
-            [parent_id] => 0
-            [status] => 
-            [currency] => 
-            [version] => 
-            [prices_include_tax] => 
-            [date_created] => 
-            [date_modified] => 
-            [discount_total] => 0
-            [discount_tax] => 0
-            [shipping_total] => 0
-            [shipping_tax] => 0
-            [cart_tax] => 0
-            [total] => 0
-            [total_tax] => 0
-            [customer_id] => 0
-            [order_key] => 
-            [billing] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                    [email] => 
-                    [phone] => 
-                )
-
-            [shipping] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                )
-
-            [payment_method] => 
-            [payment_method_title] => 
-            [transaction_id] => 
-            [customer_ip_address] => 
-            [customer_user_agent] => 
-            [created_via] => 
-            [customer_note] => 
-            [date_completed] => 
-            [date_paid] => 
-            [cart_hash] => 
-        )
-
-    [data_store:protected] => WC_Data_Store Object
-        (
-            [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
-                (
-                    [internal_meta_keys:protected] => Array
-                        (
-                            [0] => _customer_user
-                            [1] => _order_key
-                            [2] => _order_currency
-                            [3] => _billing_first_name
-                            [4] => _billing_last_name
-                            [5] => _billing_company
-                            [6] => _billing_address_1
-                            [7] => _billing_address_2
-                            [8] => _billing_city
-                            [9] => _billing_state
-                            [10] => _billing_postcode
-                            [11] => _billing_country
-                            [12] => _billing_email
-                            [13] => _billing_phone
-                            [14] => _shipping_first_name
-                            [15] => _shipping_last_name
-                            [16] => _shipping_company
-                            [17] => _shipping_address_1
-                            [18] => _shipping_address_2
-                            [19] => _shipping_city
-                            [20] => _shipping_state
-                            [21] => _shipping_postcode
-                            [22] => _shipping_country
-                            [23] => _completed_date
-                            [24] => _paid_date
-                            [25] => _edit_lock
-                            [26] => _edit_last
-                            [27] => _cart_discount
-                            [28] => _cart_discount_tax
-                            [29] => _order_shipping
-                            [30] => _order_shipping_tax
-                            [31] => _order_tax
-                            [32] => _order_total
-                            [33] => _payment_method
-                            [34] => _payment_method_title
-                            [35] => _transaction_id
-                            [36] => _customer_ip_address
-                            [37] => _customer_user_agent
-                            [38] => _created_via
-                            [39] => _order_version
-                            [40] => _prices_include_tax
-                            [41] => _date_completed
-                            [42] => _date_paid
-                            [43] => _payment_tokens
-                            [44] => _billing_address_index
-                            [45] => _shipping_address_index
-                            [46] => _recorded_sales
-                            [47] => _recorded_coupon_usage_counts
-                            [48] => _shipping_method
-                        )
-
-                    [meta_type:protected] => post
-                    [object_id_field_for_meta:protected] => 
-                )
-
-            [stores:WC_Data_Store:private] => Array
-                (
-                    [coupon] => WC_Coupon_Data_Store_CPT
-                    [customer] => WC_Customer_Data_Store
-                    [customer-download] => WC_Customer_Download_Data_Store
-                    [customer-session] => WC_Customer_Data_Store_Session
-                    [order] => WC_Order_Data_Store_CPT
-                    [order-refund] => WC_Order_Refund_Data_Store_CPT
-                    [order-item] => WC_Order_Item_Data_Store
-                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
-                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
-                    [order-item-product] => WC_Order_Item_Product_Data_Store
-                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
-                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
-                    [payment-token] => WC_Payment_Token_Data_Store
-                    [product] => WC_Product_Data_Store_CPT
-                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
-                    [product-variable] => WC_Product_Variable_Data_Store_CPT
-                    [product-variation] => WC_Product_Variation_Data_Store_CPT
-                    [shipping-zone] => WC_Shipping_Zone_Data_Store
-                    [subscription] => WCS_Subscription_Data_Store_CPT
-                    [product-variable-subscription] => WC_Product_Variable_Data_Store_CPT
-                    [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
-                    [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
-                )
-
-            [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
-            [object_type:WC_Data_Store:private] => order
-        )
-
-    [meta_data:protected] => Array
-        (
-            [0] => stdClass Object
-                (
-                    [id] => 15560
-                    [key] => _xendit_card_id
-                    [value] => 59d538b34c775b4726f0d01d
-                )
-
-            [1] => stdClass Object
-                (
-                    [id] => 15564
-                    [key] => _subscription_switch_data
-                    [value] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-)
-
-wc-xendit-payment-token -> 1
-59d53a244c775b4726f0d020process_payment try block with source ==> stdClass Object
-(
-    [token_id] => 
-    [source] => 59d53a244c775b4726f0d020
-)
-and order id ==> 391
-save_source called in Xendit addons
-save_source called in Xendit with order ==> WC_Order Object
-(
-    [status_transition:protected] => 
-    [data:protected] => Array
-        (
-            [parent_id] => 0
-            [status] => pending
-            [currency] => IDR
-            [version] => 3.0.7
-            [prices_include_tax] => 
-            [date_created] => WC_DateTime Object
-                (
-                    [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
-                    [timezone_type] => 1
-                    [timezone] => +00:00
-                )
-
-            [date_modified] => WC_DateTime Object
-                (
-                    [utc_offset:protected] => 0
-                    [date] => 2017-10-04 19:38:31.000000
-                    [timezone_type] => 1
-                    [timezone] => +00:00
-                )
-
-            [discount_total] => 0
-            [discount_tax] => 0
-            [shipping_total] => 0
-            [shipping_tax] => 0
-            [cart_tax] => 0
-            [total] => 100000.00
-            [total_tax] => 0
-            [customer_id] => 1
-            [order_key] => wc_order_59d538b75c8a9
-            [billing] => Array
-                (
-                    [first_name] => YJ
-                    [last_name] => Kim
-                    [company] => 
-                    [address_1] => 2419 Durant Avenue
-                    [address_2] => Apt 31
-                    [city] => Berkeley
-                    [state] => CA
-                    [postcode] => 94704
-                    [country] => US
-                    [email] => yjkimjunior@gmail.com
-                    [phone] => 15109902644
-                )
-
-            [shipping] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                )
-
-            [payment_method] => xendit
-            [payment_method_title] => Credit Card (Xendit)
-            [transaction_id] => 
-            [customer_ip_address] => ::1
-            [customer_user_agent] => mozilla/5.0 (macintosh; intel mac os x 10_12_6) applewebkit/537.36 (khtml, like gecko) chrome/61.0.3163.100 safari/537.36
-            [created_via] => checkout
-            [customer_note] => 
-            [date_completed] => 
-            [date_paid] => 
-            [cart_hash] => 1bb0e32a996125ec3b19ce816327ddf3
-        )
-
-    [items:protected] => Array
-        (
-        )
-
-    [items_to_delete:protected] => Array
-        (
-        )
-
-    [cache_group:protected] => orders
-    [data_store_name:protected] => order
-    [object_type:protected] => order
-    [id:protected] => 391
-    [changes:protected] => Array
-        (
-        )
-
-    [object_read:protected] => 1
-    [extra_data:protected] => Array
-        (
-        )
-
-    [default_data:protected] => Array
-        (
-            [parent_id] => 0
-            [status] => 
-            [currency] => 
-            [version] => 
-            [prices_include_tax] => 
-            [date_created] => 
-            [date_modified] => 
-            [discount_total] => 0
-            [discount_tax] => 0
-            [shipping_total] => 0
-            [shipping_tax] => 0
-            [cart_tax] => 0
-            [total] => 0
-            [total_tax] => 0
-            [customer_id] => 0
-            [order_key] => 
-            [billing] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                    [email] => 
-                    [phone] => 
-                )
-
-            [shipping] => Array
-                (
-                    [first_name] => 
-                    [last_name] => 
-                    [company] => 
-                    [address_1] => 
-                    [address_2] => 
-                    [city] => 
-                    [state] => 
-                    [postcode] => 
-                    [country] => 
-                )
-
-            [payment_method] => 
-            [payment_method_title] => 
-            [transaction_id] => 
-            [customer_ip_address] => 
-            [customer_user_agent] => 
-            [created_via] => 
-            [customer_note] => 
-            [date_completed] => 
-            [date_paid] => 
-            [cart_hash] => 
-        )
-
-    [data_store:protected] => WC_Data_Store Object
-        (
-            [instance:WC_Data_Store:private] => WC_Order_Data_Store_CPT Object
-                (
-                    [internal_meta_keys:protected] => Array
-                        (
-                            [0] => _customer_user
-                            [1] => _order_key
-                            [2] => _order_currency
-                            [3] => _billing_first_name
-                            [4] => _billing_last_name
-                            [5] => _billing_company
-                            [6] => _billing_address_1
-                            [7] => _billing_address_2
-                            [8] => _billing_city
-                            [9] => _billing_state
-                            [10] => _billing_postcode
-                            [11] => _billing_country
-                            [12] => _billing_email
-                            [13] => _billing_phone
-                            [14] => _shipping_first_name
-                            [15] => _shipping_last_name
-                            [16] => _shipping_company
-                            [17] => _shipping_address_1
-                            [18] => _shipping_address_2
-                            [19] => _shipping_city
-                            [20] => _shipping_state
-                            [21] => _shipping_postcode
-                            [22] => _shipping_country
-                            [23] => _completed_date
-                            [24] => _paid_date
-                            [25] => _edit_lock
-                            [26] => _edit_last
-                            [27] => _cart_discount
-                            [28] => _cart_discount_tax
-                            [29] => _order_shipping
-                            [30] => _order_shipping_tax
-                            [31] => _order_tax
-                            [32] => _order_total
-                            [33] => _payment_method
-                            [34] => _payment_method_title
-                            [35] => _transaction_id
-                            [36] => _customer_ip_address
-                            [37] => _customer_user_agent
-                            [38] => _created_via
-                            [39] => _order_version
-                            [40] => _prices_include_tax
-                            [41] => _date_completed
-                            [42] => _date_paid
-                            [43] => _payment_tokens
-                            [44] => _billing_address_index
-                            [45] => _shipping_address_index
-                            [46] => _recorded_sales
-                            [47] => _recorded_coupon_usage_counts
-                            [48] => _shipping_method
-                        )
-
-                    [meta_type:protected] => post
-                    [object_id_field_for_meta:protected] => 
-                )
-
-            [stores:WC_Data_Store:private] => Array
-                (
-                    [coupon] => WC_Coupon_Data_Store_CPT
-                    [customer] => WC_Customer_Data_Store
-                    [customer-download] => WC_Customer_Download_Data_Store
-                    [customer-session] => WC_Customer_Data_Store_Session
-                    [order] => WC_Order_Data_Store_CPT
-                    [order-refund] => WC_Order_Refund_Data_Store_CPT
-                    [order-item] => WC_Order_Item_Data_Store
-                    [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
-                    [order-item-fee] => WC_Order_Item_Fee_Data_Store
-                    [order-item-product] => WC_Order_Item_Product_Data_Store
-                    [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
-                    [order-item-tax] => WC_Order_Item_Tax_Data_Store
-                    [payment-token] => WC_Payment_Token_Data_Store
-                    [product] => WC_Product_Data_Store_CPT
-                    [product-grouped] => WC_Product_Grouped_Data_Store_CPT
-                    [product-variable] => WC_Product_Variable_Data_Store_CPT
-                    [product-variation] => WC_Product_Variation_Data_Store_CPT
-                    [shipping-zone] => WC_Shipping_Zone_Data_Store
-                    [subscription] => WCS_Subscription_Data_Store_CPT
-                    [product-variable-subscription] => WC_Product_Variable_Data_Store_CPT
-                    [product-subscription_variation] => WC_Product_Variation_Data_Store_CPT
-                    [order-item-line_item_pending_switch] => WC_Order_Item_Product_Data_Store
-                )
-
-            [current_class_name:WC_Data_Store:private] => WC_Order_Data_Store_CPT
-            [object_type:WC_Data_Store:private] => order
-        )
-
-    [meta_data:protected] => Array
-        (
-            [0] => stdClass Object
-                (
-                    [id] => 15560
-                    [key] => _xendit_card_id
-                    [value] => 59d538b34c775b4726f0d01d
-                )
-
-            [1] => stdClass Object
-                (
-                    [id] => 15564
-                    [key] => _subscription_switch_data
-                    [value] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-)
-and source ==> stdClass Object
-(
-    [token_id] => 
-    [source] => 59d53a244c775b4726f0d020
-)
-first subscription.getID() -> 393Info: Begin processing payment for order 391 for the amount of 100000.00$POST -> === generate_payment_request === with token -> 
-credit_card_charges request: Array
-(
-    [amount] => 10000000
-    [token_id] => 59d53a244c775b4726f0d020
-    [authentication_id] => 59d53a254c775b4726f0d021
-    [external_id] => M7RPgOXgSdm9AiHjQ5R9HtZ97yY2o3jWvbrtPJpdR8QnZ3SwgElG1QolrGqX5BG4
+    [token_id] => 59d57a804c775b4726f0d052
+    [authentication_id] => 59d57a814c775b4726f0d053
+    [external_id] => IN95Jbe1K5R3zfVsH7yhGanGVtyPmVtEDGd9vKtNvC1anog9xFdR5dUpsTDCt3VO
 )
 
 card exp year -> 2020
 response -> stdClass Object
 (
-    [created] => 2017-10-04T19:44:45.000Z
-    [business_id] => 58cd618ba0464eb64acdb246
-    [authorized_amount] => 10000000
-    [external_id] => M7RPgOXgSdm9AiHjQ5R9HtZ97yY2o3jWvbrtPJpdR8QnZ3SwgElG1QolrGqX5BG4
-    [merchant_id] => xendit
-    [merchant_reference_code] => 59d53a2c4c775b4726f0d022
-    [card_type] => CREDIT
-    [masked_card_number] => 520000XXXXXX0056
-    [charge_type] => MULTIPLE_USE_TOKEN
-    [card_brand] => MASTERCARD
-    [status] => CAPTURED
-    [capture_amount] => 10000000
-    [id] => 59d53a2c4c775b4726f0d023
+    [error_code] => CHARGE_NOT_AUTHENTICATED_ERROR
+    [message] => That token is not authenticated to make a charge. Direct your user to perform authentication first
 )
 
 post -> Array
@@ -1842,87 +854,13 @@ post -> Array
     [order_comments] => 
     [wc-stripe-payment-token] => 1
     [payment_method] => xendit
-    [_wpnonce] => 525e9a29e5
+    [_wpnonce] => b736485619
     [_wp_http_referer] => /checkout/?wc-ajax=update_order_review
     [year] => 2020
     [month] => 02
-    [xendit_token] => 59d53a244c775b4726f0d020
-    [xendit_authentication] => 59d53a254c775b4726f0d021
+    [xendit_token] => 59d57a804c775b4726f0d052
+    [xendit_authentication] => 59d57a814c775b4726f0d053
 )
 
 user -> 1
-validation1saving wc payment token cc -> {"id":14,"gateway_id":"xendit","token":"59d53a2c4c775b4726f0d023","is_default":false,"user_id":1,"type":"","last4":"0056","expiry_year":"2020","expiry_month":"02","card_type":"MASTERCARD","meta_data":[{"id":53,"key":"last4","value":"0056"},{"id":54,"key":"expiry_year","value":"2020"},{"id":55,"key":"expiry_month","value":"02"},{"id":56,"key":"card_type","value":"MASTERCARD"}]}
-Processing response: stdClass Object
-(
-    [created] => 2017-10-04T19:44:45.000Z
-    [business_id] => 58cd618ba0464eb64acdb246
-    [authorized_amount] => 10000000
-    [external_id] => M7RPgOXgSdm9AiHjQ5R9HtZ97yY2o3jWvbrtPJpdR8QnZ3SwgElG1QolrGqX5BG4
-    [merchant_id] => xendit
-    [merchant_reference_code] => 59d53a2c4c775b4726f0d022
-    [card_type] => CREDIT
-    [masked_card_number] => 520000XXXXXX0056
-    [charge_type] => MULTIPLE_USE_TOKEN
-    [card_brand] => MASTERCARD
-    [status] => CAPTURED
-    [capture_amount] => 10000000
-    [id] => 59d53a2c4c775b4726f0d023
-)
-
-CAPTURED => 1
-Success: Xendit charge complete (Charge ID: 59d53a2c4c775b4726f0d023)payment_scripts called in xendit
-called scheduled_subscription_payment in XENDIT ADDONSprocess_subscription_payment called in Xendit addonsget_order source called in Class_WC_Gateway_Xendit
-process_subscription_payment -> get_order_source -> stdClass Object
-(
-    [token_id] => 
-    [source] => 59d53a244c775b4726f0d020
-)
-Info: Begin processing subscription payment for order 396 for the amount of 100000.00=== generate_payment_request === with token -> stdClass Object
-(
-    [token_id] => 
-    [source] => 59d53a244c775b4726f0d020
-)
-
-subscription request is -> Array
-(
-    [amount] => 10000000
-    [token_id] => 59d53a244c775b4726f0d020
-    [authentication_id] => 
-    [external_id] => Fdu4OUyvrswTIvOxw47fXaziMIIGKtRmq7hXWrypMWCFOoOnhv4E5mwpHwQAKMqH
-)
-credit_card_charges request: Array
-(
-    [amount] => 10000000
-    [token_id] => 59d53a244c775b4726f0d020
-    [authentication_id] => 
-    [external_id] => Fdu4OUyvrswTIvOxw47fXaziMIIGKtRmq7hXWrypMWCFOoOnhv4E5mwpHwQAKMqH
-)
-
-Processing response: stdClass Object
-(
-    [error_code] => API_VALIDATION_ERROR
-    [message] => There was an error with the format submitted to the server.
-    [errors] => Array
-        (
-            [0] => stdClass Object
-                (
-                    [field] => authentication_id
-                    [location] => body
-                    [messages] => Array
-                        (
-                            [0] => "authentication_id" is not allowed to be empty
-                        )
-
-                    [types] => Array
-                        (
-                            [0] => any.empty
-                        )
-
-                )
-
-        )
-
-)
-
-CAPTURED => 1
-Successful auth: 
+validationError: Invalid or missing payment token fields.

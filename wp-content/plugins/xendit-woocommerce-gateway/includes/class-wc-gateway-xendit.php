@@ -156,7 +156,7 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 		if ( ! $currency ) {
 			$currency = get_woocommerce_currency();
 		}
-		$total = round( $total, 2 ) * 100;
+		$total = round( $total, 2 ) * 10;
 
 		echo '<script>var total = '.$total.'</script>';
 		return $total;
@@ -333,20 +333,24 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 	    return $randomString;
 	}
 
-	protected function xendit_authentication($auth_data) {
+	protected function xendit_authentication($auth_data) { ?>
+		<script>
+			var token_id = <?php echo $auth_data->token_id ?>;
 
-		$auth_id = '';
-		echo '<script>
-			Xendit.card.createAuthentication('.$auth_data.', function(err, response) {
-				if (err) {
-					console.log(err);
-				}
+			var data = {
+				"amount": <?php echo $auth_data->amount ?>,
+				"token_id": token_id
+			}
 
-				console.log(response);
+			wc_xendit_form.form.append( "<input type='hidden' class='xendit_token' name='xendit_token' value='" + token_id + "'/>" );
+			Xendit.card.createAuthentication( data, wc_xendit_form.onAuthenticationResponse );
+		</script>
 
-			});
-		</script>';
+		<?php
 
+		$this->log('xendit_authentication $auth_data -> ' . print_r($auth_data, true) . PHP_EOL);
+
+		$auth_id = $_POST['xendit_authentication'];
 
 		return $auth_id;
 	}
@@ -365,6 +369,8 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 		$amount = $this->get_xendit_amount( $order->get_total(), $post_data['currency'] );
 		$token_id = wc_clean( $_POST['xendit_token'] ? $_POST['xendit_token'] : $xendit_token->source );
 		$auth_id = wc_clean( $_POST['xendit_authentication'] ? $_POST['xendit_authentication'] : false);
+
+		$auth_data = array('amount' => $amount, 'token_id' => $token_id);
 
 		if (! $auth_id ) {
 			$auth_id = $this->xendit_authentication($auth_data);
@@ -513,7 +519,7 @@ class WC_Gateway_Xendit extends WC_Payment_Gateway_CC {
 
 				$this->log('card exp year -> ' . print_r(wc_clean($_POST['year']), true) . PHP_EOL);
 
-				// Save the token
+				// Save new if there is one token
 
 				/*
 					$token->set_token( 'token here' );

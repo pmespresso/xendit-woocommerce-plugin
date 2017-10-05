@@ -7964,3 +7964,1041 @@ payment fields called in Xendit with user -> WP_User Object
 )
 
 payment_fields: display tokenization -> 1
+payment fields called in Xendit with user -> WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 1
+            [user_login] => xendit_woo_user
+            [user_pass] => $P$BoCY.BdOzsljazd3iwlIi/pKCRFxEm.
+            [user_nicename] => xendit_woo_user
+            [user_email] => yjkimjunior@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-10 18:38:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => YJ Kim
+        )
+
+    [ID] => 1
+    [caps] => Array
+        (
+            [administrator] => 1
+        )
+
+    [cap_key] => xen_capabilities
+    [roles] => Array
+        (
+            [0] => administrator
+        )
+
+    [allcaps] => Array
+        (
+            [switch_themes] => 1
+            [edit_themes] => 1
+            [activate_plugins] => 1
+            [edit_plugins] => 1
+            [edit_users] => 1
+            [edit_files] => 1
+            [manage_options] => 1
+            [moderate_comments] => 1
+            [manage_categories] => 1
+            [manage_links] => 1
+            [upload_files] => 1
+            [import] => 1
+            [unfiltered_html] => 1
+            [edit_posts] => 1
+            [edit_others_posts] => 1
+            [edit_published_posts] => 1
+            [publish_posts] => 1
+            [edit_pages] => 1
+            [read] => 1
+            [level_10] => 1
+            [level_9] => 1
+            [level_8] => 1
+            [level_7] => 1
+            [level_6] => 1
+            [level_5] => 1
+            [level_4] => 1
+            [level_3] => 1
+            [level_2] => 1
+            [level_1] => 1
+            [level_0] => 1
+            [edit_others_pages] => 1
+            [edit_published_pages] => 1
+            [publish_pages] => 1
+            [delete_pages] => 1
+            [delete_others_pages] => 1
+            [delete_published_pages] => 1
+            [delete_posts] => 1
+            [delete_others_posts] => 1
+            [delete_published_posts] => 1
+            [delete_private_posts] => 1
+            [edit_private_posts] => 1
+            [read_private_posts] => 1
+            [delete_private_pages] => 1
+            [edit_private_pages] => 1
+            [read_private_pages] => 1
+            [delete_users] => 1
+            [create_users] => 1
+            [unfiltered_upload] => 1
+            [edit_dashboard] => 1
+            [update_plugins] => 1
+            [delete_plugins] => 1
+            [install_plugins] => 1
+            [update_themes] => 1
+            [install_themes] => 1
+            [update_core] => 1
+            [list_users] => 1
+            [remove_users] => 1
+            [promote_users] => 1
+            [edit_theme_options] => 1
+            [delete_themes] => 1
+            [export] => 1
+            [manage_woocommerce] => 1
+            [view_woocommerce_reports] => 1
+            [edit_product] => 1
+            [read_product] => 1
+            [delete_product] => 1
+            [edit_products] => 1
+            [edit_others_products] => 1
+            [publish_products] => 1
+            [read_private_products] => 1
+            [delete_products] => 1
+            [delete_private_products] => 1
+            [delete_published_products] => 1
+            [delete_others_products] => 1
+            [edit_private_products] => 1
+            [edit_published_products] => 1
+            [manage_product_terms] => 1
+            [edit_product_terms] => 1
+            [delete_product_terms] => 1
+            [assign_product_terms] => 1
+            [edit_shop_order] => 1
+            [read_shop_order] => 1
+            [delete_shop_order] => 1
+            [edit_shop_orders] => 1
+            [edit_others_shop_orders] => 1
+            [publish_shop_orders] => 1
+            [read_private_shop_orders] => 1
+            [delete_shop_orders] => 1
+            [delete_private_shop_orders] => 1
+            [delete_published_shop_orders] => 1
+            [delete_others_shop_orders] => 1
+            [edit_private_shop_orders] => 1
+            [edit_published_shop_orders] => 1
+            [manage_shop_order_terms] => 1
+            [edit_shop_order_terms] => 1
+            [delete_shop_order_terms] => 1
+            [assign_shop_order_terms] => 1
+            [edit_shop_coupon] => 1
+            [read_shop_coupon] => 1
+            [delete_shop_coupon] => 1
+            [edit_shop_coupons] => 1
+            [edit_others_shop_coupons] => 1
+            [publish_shop_coupons] => 1
+            [read_private_shop_coupons] => 1
+            [delete_shop_coupons] => 1
+            [delete_private_shop_coupons] => 1
+            [delete_published_shop_coupons] => 1
+            [delete_others_shop_coupons] => 1
+            [edit_private_shop_coupons] => 1
+            [edit_published_shop_coupons] => 1
+            [manage_shop_coupon_terms] => 1
+            [edit_shop_coupon_terms] => 1
+            [delete_shop_coupon_terms] => 1
+            [assign_shop_coupon_terms] => 1
+            [edit_shop_webhook] => 1
+            [read_shop_webhook] => 1
+            [delete_shop_webhook] => 1
+            [edit_shop_webhooks] => 1
+            [edit_others_shop_webhooks] => 1
+            [publish_shop_webhooks] => 1
+            [read_private_shop_webhooks] => 1
+            [delete_shop_webhooks] => 1
+            [delete_private_shop_webhooks] => 1
+            [delete_published_shop_webhooks] => 1
+            [delete_others_shop_webhooks] => 1
+            [edit_private_shop_webhooks] => 1
+            [edit_published_shop_webhooks] => 1
+            [manage_shop_webhook_terms] => 1
+            [edit_shop_webhook_terms] => 1
+            [delete_shop_webhook_terms] => 1
+            [assign_shop_webhook_terms] => 1
+            [manage_product_categories] => 1
+            [edit_product_categories] => 1
+            [delete_product_categories] => 1
+            [assign_product_categories] => 1
+            [manage_product_settings] => 1
+            [administrator] => 1
+        )
+
+    [filter] => 
+)
+
+payment_fields: display tokenization -> 1
+payment fields called in Xendit with user -> WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 1
+            [user_login] => xendit_woo_user
+            [user_pass] => $P$BoCY.BdOzsljazd3iwlIi/pKCRFxEm.
+            [user_nicename] => xendit_woo_user
+            [user_email] => yjkimjunior@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-10 18:38:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => YJ Kim
+        )
+
+    [ID] => 1
+    [caps] => Array
+        (
+            [administrator] => 1
+        )
+
+    [cap_key] => xen_capabilities
+    [roles] => Array
+        (
+            [0] => administrator
+        )
+
+    [allcaps] => Array
+        (
+            [switch_themes] => 1
+            [edit_themes] => 1
+            [activate_plugins] => 1
+            [edit_plugins] => 1
+            [edit_users] => 1
+            [edit_files] => 1
+            [manage_options] => 1
+            [moderate_comments] => 1
+            [manage_categories] => 1
+            [manage_links] => 1
+            [upload_files] => 1
+            [import] => 1
+            [unfiltered_html] => 1
+            [edit_posts] => 1
+            [edit_others_posts] => 1
+            [edit_published_posts] => 1
+            [publish_posts] => 1
+            [edit_pages] => 1
+            [read] => 1
+            [level_10] => 1
+            [level_9] => 1
+            [level_8] => 1
+            [level_7] => 1
+            [level_6] => 1
+            [level_5] => 1
+            [level_4] => 1
+            [level_3] => 1
+            [level_2] => 1
+            [level_1] => 1
+            [level_0] => 1
+            [edit_others_pages] => 1
+            [edit_published_pages] => 1
+            [publish_pages] => 1
+            [delete_pages] => 1
+            [delete_others_pages] => 1
+            [delete_published_pages] => 1
+            [delete_posts] => 1
+            [delete_others_posts] => 1
+            [delete_published_posts] => 1
+            [delete_private_posts] => 1
+            [edit_private_posts] => 1
+            [read_private_posts] => 1
+            [delete_private_pages] => 1
+            [edit_private_pages] => 1
+            [read_private_pages] => 1
+            [delete_users] => 1
+            [create_users] => 1
+            [unfiltered_upload] => 1
+            [edit_dashboard] => 1
+            [update_plugins] => 1
+            [delete_plugins] => 1
+            [install_plugins] => 1
+            [update_themes] => 1
+            [install_themes] => 1
+            [update_core] => 1
+            [list_users] => 1
+            [remove_users] => 1
+            [promote_users] => 1
+            [edit_theme_options] => 1
+            [delete_themes] => 1
+            [export] => 1
+            [manage_woocommerce] => 1
+            [view_woocommerce_reports] => 1
+            [edit_product] => 1
+            [read_product] => 1
+            [delete_product] => 1
+            [edit_products] => 1
+            [edit_others_products] => 1
+            [publish_products] => 1
+            [read_private_products] => 1
+            [delete_products] => 1
+            [delete_private_products] => 1
+            [delete_published_products] => 1
+            [delete_others_products] => 1
+            [edit_private_products] => 1
+            [edit_published_products] => 1
+            [manage_product_terms] => 1
+            [edit_product_terms] => 1
+            [delete_product_terms] => 1
+            [assign_product_terms] => 1
+            [edit_shop_order] => 1
+            [read_shop_order] => 1
+            [delete_shop_order] => 1
+            [edit_shop_orders] => 1
+            [edit_others_shop_orders] => 1
+            [publish_shop_orders] => 1
+            [read_private_shop_orders] => 1
+            [delete_shop_orders] => 1
+            [delete_private_shop_orders] => 1
+            [delete_published_shop_orders] => 1
+            [delete_others_shop_orders] => 1
+            [edit_private_shop_orders] => 1
+            [edit_published_shop_orders] => 1
+            [manage_shop_order_terms] => 1
+            [edit_shop_order_terms] => 1
+            [delete_shop_order_terms] => 1
+            [assign_shop_order_terms] => 1
+            [edit_shop_coupon] => 1
+            [read_shop_coupon] => 1
+            [delete_shop_coupon] => 1
+            [edit_shop_coupons] => 1
+            [edit_others_shop_coupons] => 1
+            [publish_shop_coupons] => 1
+            [read_private_shop_coupons] => 1
+            [delete_shop_coupons] => 1
+            [delete_private_shop_coupons] => 1
+            [delete_published_shop_coupons] => 1
+            [delete_others_shop_coupons] => 1
+            [edit_private_shop_coupons] => 1
+            [edit_published_shop_coupons] => 1
+            [manage_shop_coupon_terms] => 1
+            [edit_shop_coupon_terms] => 1
+            [delete_shop_coupon_terms] => 1
+            [assign_shop_coupon_terms] => 1
+            [edit_shop_webhook] => 1
+            [read_shop_webhook] => 1
+            [delete_shop_webhook] => 1
+            [edit_shop_webhooks] => 1
+            [edit_others_shop_webhooks] => 1
+            [publish_shop_webhooks] => 1
+            [read_private_shop_webhooks] => 1
+            [delete_shop_webhooks] => 1
+            [delete_private_shop_webhooks] => 1
+            [delete_published_shop_webhooks] => 1
+            [delete_others_shop_webhooks] => 1
+            [edit_private_shop_webhooks] => 1
+            [edit_published_shop_webhooks] => 1
+            [manage_shop_webhook_terms] => 1
+            [edit_shop_webhook_terms] => 1
+            [delete_shop_webhook_terms] => 1
+            [assign_shop_webhook_terms] => 1
+            [manage_product_categories] => 1
+            [edit_product_categories] => 1
+            [delete_product_categories] => 1
+            [assign_product_categories] => 1
+            [manage_product_settings] => 1
+            [administrator] => 1
+        )
+
+    [filter] => 
+)
+
+payment_fields: display tokenization -> 1
+payment fields called in Xendit with user -> WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 1
+            [user_login] => xendit_woo_user
+            [user_pass] => $P$BoCY.BdOzsljazd3iwlIi/pKCRFxEm.
+            [user_nicename] => xendit_woo_user
+            [user_email] => yjkimjunior@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-10 18:38:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => YJ Kim
+        )
+
+    [ID] => 1
+    [caps] => Array
+        (
+            [administrator] => 1
+        )
+
+    [cap_key] => xen_capabilities
+    [roles] => Array
+        (
+            [0] => administrator
+        )
+
+    [allcaps] => Array
+        (
+            [switch_themes] => 1
+            [edit_themes] => 1
+            [activate_plugins] => 1
+            [edit_plugins] => 1
+            [edit_users] => 1
+            [edit_files] => 1
+            [manage_options] => 1
+            [moderate_comments] => 1
+            [manage_categories] => 1
+            [manage_links] => 1
+            [upload_files] => 1
+            [import] => 1
+            [unfiltered_html] => 1
+            [edit_posts] => 1
+            [edit_others_posts] => 1
+            [edit_published_posts] => 1
+            [publish_posts] => 1
+            [edit_pages] => 1
+            [read] => 1
+            [level_10] => 1
+            [level_9] => 1
+            [level_8] => 1
+            [level_7] => 1
+            [level_6] => 1
+            [level_5] => 1
+            [level_4] => 1
+            [level_3] => 1
+            [level_2] => 1
+            [level_1] => 1
+            [level_0] => 1
+            [edit_others_pages] => 1
+            [edit_published_pages] => 1
+            [publish_pages] => 1
+            [delete_pages] => 1
+            [delete_others_pages] => 1
+            [delete_published_pages] => 1
+            [delete_posts] => 1
+            [delete_others_posts] => 1
+            [delete_published_posts] => 1
+            [delete_private_posts] => 1
+            [edit_private_posts] => 1
+            [read_private_posts] => 1
+            [delete_private_pages] => 1
+            [edit_private_pages] => 1
+            [read_private_pages] => 1
+            [delete_users] => 1
+            [create_users] => 1
+            [unfiltered_upload] => 1
+            [edit_dashboard] => 1
+            [update_plugins] => 1
+            [delete_plugins] => 1
+            [install_plugins] => 1
+            [update_themes] => 1
+            [install_themes] => 1
+            [update_core] => 1
+            [list_users] => 1
+            [remove_users] => 1
+            [promote_users] => 1
+            [edit_theme_options] => 1
+            [delete_themes] => 1
+            [export] => 1
+            [manage_woocommerce] => 1
+            [view_woocommerce_reports] => 1
+            [edit_product] => 1
+            [read_product] => 1
+            [delete_product] => 1
+            [edit_products] => 1
+            [edit_others_products] => 1
+            [publish_products] => 1
+            [read_private_products] => 1
+            [delete_products] => 1
+            [delete_private_products] => 1
+            [delete_published_products] => 1
+            [delete_others_products] => 1
+            [edit_private_products] => 1
+            [edit_published_products] => 1
+            [manage_product_terms] => 1
+            [edit_product_terms] => 1
+            [delete_product_terms] => 1
+            [assign_product_terms] => 1
+            [edit_shop_order] => 1
+            [read_shop_order] => 1
+            [delete_shop_order] => 1
+            [edit_shop_orders] => 1
+            [edit_others_shop_orders] => 1
+            [publish_shop_orders] => 1
+            [read_private_shop_orders] => 1
+            [delete_shop_orders] => 1
+            [delete_private_shop_orders] => 1
+            [delete_published_shop_orders] => 1
+            [delete_others_shop_orders] => 1
+            [edit_private_shop_orders] => 1
+            [edit_published_shop_orders] => 1
+            [manage_shop_order_terms] => 1
+            [edit_shop_order_terms] => 1
+            [delete_shop_order_terms] => 1
+            [assign_shop_order_terms] => 1
+            [edit_shop_coupon] => 1
+            [read_shop_coupon] => 1
+            [delete_shop_coupon] => 1
+            [edit_shop_coupons] => 1
+            [edit_others_shop_coupons] => 1
+            [publish_shop_coupons] => 1
+            [read_private_shop_coupons] => 1
+            [delete_shop_coupons] => 1
+            [delete_private_shop_coupons] => 1
+            [delete_published_shop_coupons] => 1
+            [delete_others_shop_coupons] => 1
+            [edit_private_shop_coupons] => 1
+            [edit_published_shop_coupons] => 1
+            [manage_shop_coupon_terms] => 1
+            [edit_shop_coupon_terms] => 1
+            [delete_shop_coupon_terms] => 1
+            [assign_shop_coupon_terms] => 1
+            [edit_shop_webhook] => 1
+            [read_shop_webhook] => 1
+            [delete_shop_webhook] => 1
+            [edit_shop_webhooks] => 1
+            [edit_others_shop_webhooks] => 1
+            [publish_shop_webhooks] => 1
+            [read_private_shop_webhooks] => 1
+            [delete_shop_webhooks] => 1
+            [delete_private_shop_webhooks] => 1
+            [delete_published_shop_webhooks] => 1
+            [delete_others_shop_webhooks] => 1
+            [edit_private_shop_webhooks] => 1
+            [edit_published_shop_webhooks] => 1
+            [manage_shop_webhook_terms] => 1
+            [edit_shop_webhook_terms] => 1
+            [delete_shop_webhook_terms] => 1
+            [assign_shop_webhook_terms] => 1
+            [manage_product_categories] => 1
+            [edit_product_categories] => 1
+            [delete_product_categories] => 1
+            [assign_product_categories] => 1
+            [manage_product_settings] => 1
+            [administrator] => 1
+        )
+
+    [filter] => 
+)
+
+payment_fields: display tokenization -> 1
+payment fields called in Xendit with user -> WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 1
+            [user_login] => xendit_woo_user
+            [user_pass] => $P$BoCY.BdOzsljazd3iwlIi/pKCRFxEm.
+            [user_nicename] => xendit_woo_user
+            [user_email] => yjkimjunior@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-10 18:38:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => YJ Kim
+        )
+
+    [ID] => 1
+    [caps] => Array
+        (
+            [administrator] => 1
+        )
+
+    [cap_key] => xen_capabilities
+    [roles] => Array
+        (
+            [0] => administrator
+        )
+
+    [allcaps] => Array
+        (
+            [switch_themes] => 1
+            [edit_themes] => 1
+            [activate_plugins] => 1
+            [edit_plugins] => 1
+            [edit_users] => 1
+            [edit_files] => 1
+            [manage_options] => 1
+            [moderate_comments] => 1
+            [manage_categories] => 1
+            [manage_links] => 1
+            [upload_files] => 1
+            [import] => 1
+            [unfiltered_html] => 1
+            [edit_posts] => 1
+            [edit_others_posts] => 1
+            [edit_published_posts] => 1
+            [publish_posts] => 1
+            [edit_pages] => 1
+            [read] => 1
+            [level_10] => 1
+            [level_9] => 1
+            [level_8] => 1
+            [level_7] => 1
+            [level_6] => 1
+            [level_5] => 1
+            [level_4] => 1
+            [level_3] => 1
+            [level_2] => 1
+            [level_1] => 1
+            [level_0] => 1
+            [edit_others_pages] => 1
+            [edit_published_pages] => 1
+            [publish_pages] => 1
+            [delete_pages] => 1
+            [delete_others_pages] => 1
+            [delete_published_pages] => 1
+            [delete_posts] => 1
+            [delete_others_posts] => 1
+            [delete_published_posts] => 1
+            [delete_private_posts] => 1
+            [edit_private_posts] => 1
+            [read_private_posts] => 1
+            [delete_private_pages] => 1
+            [edit_private_pages] => 1
+            [read_private_pages] => 1
+            [delete_users] => 1
+            [create_users] => 1
+            [unfiltered_upload] => 1
+            [edit_dashboard] => 1
+            [update_plugins] => 1
+            [delete_plugins] => 1
+            [install_plugins] => 1
+            [update_themes] => 1
+            [install_themes] => 1
+            [update_core] => 1
+            [list_users] => 1
+            [remove_users] => 1
+            [promote_users] => 1
+            [edit_theme_options] => 1
+            [delete_themes] => 1
+            [export] => 1
+            [manage_woocommerce] => 1
+            [view_woocommerce_reports] => 1
+            [edit_product] => 1
+            [read_product] => 1
+            [delete_product] => 1
+            [edit_products] => 1
+            [edit_others_products] => 1
+            [publish_products] => 1
+            [read_private_products] => 1
+            [delete_products] => 1
+            [delete_private_products] => 1
+            [delete_published_products] => 1
+            [delete_others_products] => 1
+            [edit_private_products] => 1
+            [edit_published_products] => 1
+            [manage_product_terms] => 1
+            [edit_product_terms] => 1
+            [delete_product_terms] => 1
+            [assign_product_terms] => 1
+            [edit_shop_order] => 1
+            [read_shop_order] => 1
+            [delete_shop_order] => 1
+            [edit_shop_orders] => 1
+            [edit_others_shop_orders] => 1
+            [publish_shop_orders] => 1
+            [read_private_shop_orders] => 1
+            [delete_shop_orders] => 1
+            [delete_private_shop_orders] => 1
+            [delete_published_shop_orders] => 1
+            [delete_others_shop_orders] => 1
+            [edit_private_shop_orders] => 1
+            [edit_published_shop_orders] => 1
+            [manage_shop_order_terms] => 1
+            [edit_shop_order_terms] => 1
+            [delete_shop_order_terms] => 1
+            [assign_shop_order_terms] => 1
+            [edit_shop_coupon] => 1
+            [read_shop_coupon] => 1
+            [delete_shop_coupon] => 1
+            [edit_shop_coupons] => 1
+            [edit_others_shop_coupons] => 1
+            [publish_shop_coupons] => 1
+            [read_private_shop_coupons] => 1
+            [delete_shop_coupons] => 1
+            [delete_private_shop_coupons] => 1
+            [delete_published_shop_coupons] => 1
+            [delete_others_shop_coupons] => 1
+            [edit_private_shop_coupons] => 1
+            [edit_published_shop_coupons] => 1
+            [manage_shop_coupon_terms] => 1
+            [edit_shop_coupon_terms] => 1
+            [delete_shop_coupon_terms] => 1
+            [assign_shop_coupon_terms] => 1
+            [edit_shop_webhook] => 1
+            [read_shop_webhook] => 1
+            [delete_shop_webhook] => 1
+            [edit_shop_webhooks] => 1
+            [edit_others_shop_webhooks] => 1
+            [publish_shop_webhooks] => 1
+            [read_private_shop_webhooks] => 1
+            [delete_shop_webhooks] => 1
+            [delete_private_shop_webhooks] => 1
+            [delete_published_shop_webhooks] => 1
+            [delete_others_shop_webhooks] => 1
+            [edit_private_shop_webhooks] => 1
+            [edit_published_shop_webhooks] => 1
+            [manage_shop_webhook_terms] => 1
+            [edit_shop_webhook_terms] => 1
+            [delete_shop_webhook_terms] => 1
+            [assign_shop_webhook_terms] => 1
+            [manage_product_categories] => 1
+            [edit_product_categories] => 1
+            [delete_product_categories] => 1
+            [assign_product_categories] => 1
+            [manage_product_settings] => 1
+            [administrator] => 1
+        )
+
+    [filter] => 
+)
+
+payment_fields: display tokenization -> 1
+payment fields called in Xendit with user -> WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 1
+            [user_login] => xendit_woo_user
+            [user_pass] => $P$BoCY.BdOzsljazd3iwlIi/pKCRFxEm.
+            [user_nicename] => xendit_woo_user
+            [user_email] => yjkimjunior@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-10 18:38:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => YJ Kim
+        )
+
+    [ID] => 1
+    [caps] => Array
+        (
+            [administrator] => 1
+        )
+
+    [cap_key] => xen_capabilities
+    [roles] => Array
+        (
+            [0] => administrator
+        )
+
+    [allcaps] => Array
+        (
+            [switch_themes] => 1
+            [edit_themes] => 1
+            [activate_plugins] => 1
+            [edit_plugins] => 1
+            [edit_users] => 1
+            [edit_files] => 1
+            [manage_options] => 1
+            [moderate_comments] => 1
+            [manage_categories] => 1
+            [manage_links] => 1
+            [upload_files] => 1
+            [import] => 1
+            [unfiltered_html] => 1
+            [edit_posts] => 1
+            [edit_others_posts] => 1
+            [edit_published_posts] => 1
+            [publish_posts] => 1
+            [edit_pages] => 1
+            [read] => 1
+            [level_10] => 1
+            [level_9] => 1
+            [level_8] => 1
+            [level_7] => 1
+            [level_6] => 1
+            [level_5] => 1
+            [level_4] => 1
+            [level_3] => 1
+            [level_2] => 1
+            [level_1] => 1
+            [level_0] => 1
+            [edit_others_pages] => 1
+            [edit_published_pages] => 1
+            [publish_pages] => 1
+            [delete_pages] => 1
+            [delete_others_pages] => 1
+            [delete_published_pages] => 1
+            [delete_posts] => 1
+            [delete_others_posts] => 1
+            [delete_published_posts] => 1
+            [delete_private_posts] => 1
+            [edit_private_posts] => 1
+            [read_private_posts] => 1
+            [delete_private_pages] => 1
+            [edit_private_pages] => 1
+            [read_private_pages] => 1
+            [delete_users] => 1
+            [create_users] => 1
+            [unfiltered_upload] => 1
+            [edit_dashboard] => 1
+            [update_plugins] => 1
+            [delete_plugins] => 1
+            [install_plugins] => 1
+            [update_themes] => 1
+            [install_themes] => 1
+            [update_core] => 1
+            [list_users] => 1
+            [remove_users] => 1
+            [promote_users] => 1
+            [edit_theme_options] => 1
+            [delete_themes] => 1
+            [export] => 1
+            [manage_woocommerce] => 1
+            [view_woocommerce_reports] => 1
+            [edit_product] => 1
+            [read_product] => 1
+            [delete_product] => 1
+            [edit_products] => 1
+            [edit_others_products] => 1
+            [publish_products] => 1
+            [read_private_products] => 1
+            [delete_products] => 1
+            [delete_private_products] => 1
+            [delete_published_products] => 1
+            [delete_others_products] => 1
+            [edit_private_products] => 1
+            [edit_published_products] => 1
+            [manage_product_terms] => 1
+            [edit_product_terms] => 1
+            [delete_product_terms] => 1
+            [assign_product_terms] => 1
+            [edit_shop_order] => 1
+            [read_shop_order] => 1
+            [delete_shop_order] => 1
+            [edit_shop_orders] => 1
+            [edit_others_shop_orders] => 1
+            [publish_shop_orders] => 1
+            [read_private_shop_orders] => 1
+            [delete_shop_orders] => 1
+            [delete_private_shop_orders] => 1
+            [delete_published_shop_orders] => 1
+            [delete_others_shop_orders] => 1
+            [edit_private_shop_orders] => 1
+            [edit_published_shop_orders] => 1
+            [manage_shop_order_terms] => 1
+            [edit_shop_order_terms] => 1
+            [delete_shop_order_terms] => 1
+            [assign_shop_order_terms] => 1
+            [edit_shop_coupon] => 1
+            [read_shop_coupon] => 1
+            [delete_shop_coupon] => 1
+            [edit_shop_coupons] => 1
+            [edit_others_shop_coupons] => 1
+            [publish_shop_coupons] => 1
+            [read_private_shop_coupons] => 1
+            [delete_shop_coupons] => 1
+            [delete_private_shop_coupons] => 1
+            [delete_published_shop_coupons] => 1
+            [delete_others_shop_coupons] => 1
+            [edit_private_shop_coupons] => 1
+            [edit_published_shop_coupons] => 1
+            [manage_shop_coupon_terms] => 1
+            [edit_shop_coupon_terms] => 1
+            [delete_shop_coupon_terms] => 1
+            [assign_shop_coupon_terms] => 1
+            [edit_shop_webhook] => 1
+            [read_shop_webhook] => 1
+            [delete_shop_webhook] => 1
+            [edit_shop_webhooks] => 1
+            [edit_others_shop_webhooks] => 1
+            [publish_shop_webhooks] => 1
+            [read_private_shop_webhooks] => 1
+            [delete_shop_webhooks] => 1
+            [delete_private_shop_webhooks] => 1
+            [delete_published_shop_webhooks] => 1
+            [delete_others_shop_webhooks] => 1
+            [edit_private_shop_webhooks] => 1
+            [edit_published_shop_webhooks] => 1
+            [manage_shop_webhook_terms] => 1
+            [edit_shop_webhook_terms] => 1
+            [delete_shop_webhook_terms] => 1
+            [assign_shop_webhook_terms] => 1
+            [manage_product_categories] => 1
+            [edit_product_categories] => 1
+            [delete_product_categories] => 1
+            [assign_product_categories] => 1
+            [manage_product_settings] => 1
+            [administrator] => 1
+        )
+
+    [filter] => 
+)
+
+payment_fields: display tokenization -> 1
+payment fields called in Xendit with user -> WP_User Object
+(
+    [data] => stdClass Object
+        (
+            [ID] => 1
+            [user_login] => xendit_woo_user
+            [user_pass] => $P$BoCY.BdOzsljazd3iwlIi/pKCRFxEm.
+            [user_nicename] => xendit_woo_user
+            [user_email] => yjkimjunior@gmail.com
+            [user_url] => 
+            [user_registered] => 2017-09-10 18:38:24
+            [user_activation_key] => 
+            [user_status] => 0
+            [display_name] => YJ Kim
+        )
+
+    [ID] => 1
+    [caps] => Array
+        (
+            [administrator] => 1
+        )
+
+    [cap_key] => xen_capabilities
+    [roles] => Array
+        (
+            [0] => administrator
+        )
+
+    [allcaps] => Array
+        (
+            [switch_themes] => 1
+            [edit_themes] => 1
+            [activate_plugins] => 1
+            [edit_plugins] => 1
+            [edit_users] => 1
+            [edit_files] => 1
+            [manage_options] => 1
+            [moderate_comments] => 1
+            [manage_categories] => 1
+            [manage_links] => 1
+            [upload_files] => 1
+            [import] => 1
+            [unfiltered_html] => 1
+            [edit_posts] => 1
+            [edit_others_posts] => 1
+            [edit_published_posts] => 1
+            [publish_posts] => 1
+            [edit_pages] => 1
+            [read] => 1
+            [level_10] => 1
+            [level_9] => 1
+            [level_8] => 1
+            [level_7] => 1
+            [level_6] => 1
+            [level_5] => 1
+            [level_4] => 1
+            [level_3] => 1
+            [level_2] => 1
+            [level_1] => 1
+            [level_0] => 1
+            [edit_others_pages] => 1
+            [edit_published_pages] => 1
+            [publish_pages] => 1
+            [delete_pages] => 1
+            [delete_others_pages] => 1
+            [delete_published_pages] => 1
+            [delete_posts] => 1
+            [delete_others_posts] => 1
+            [delete_published_posts] => 1
+            [delete_private_posts] => 1
+            [edit_private_posts] => 1
+            [read_private_posts] => 1
+            [delete_private_pages] => 1
+            [edit_private_pages] => 1
+            [read_private_pages] => 1
+            [delete_users] => 1
+            [create_users] => 1
+            [unfiltered_upload] => 1
+            [edit_dashboard] => 1
+            [update_plugins] => 1
+            [delete_plugins] => 1
+            [install_plugins] => 1
+            [update_themes] => 1
+            [install_themes] => 1
+            [update_core] => 1
+            [list_users] => 1
+            [remove_users] => 1
+            [promote_users] => 1
+            [edit_theme_options] => 1
+            [delete_themes] => 1
+            [export] => 1
+            [manage_woocommerce] => 1
+            [view_woocommerce_reports] => 1
+            [edit_product] => 1
+            [read_product] => 1
+            [delete_product] => 1
+            [edit_products] => 1
+            [edit_others_products] => 1
+            [publish_products] => 1
+            [read_private_products] => 1
+            [delete_products] => 1
+            [delete_private_products] => 1
+            [delete_published_products] => 1
+            [delete_others_products] => 1
+            [edit_private_products] => 1
+            [edit_published_products] => 1
+            [manage_product_terms] => 1
+            [edit_product_terms] => 1
+            [delete_product_terms] => 1
+            [assign_product_terms] => 1
+            [edit_shop_order] => 1
+            [read_shop_order] => 1
+            [delete_shop_order] => 1
+            [edit_shop_orders] => 1
+            [edit_others_shop_orders] => 1
+            [publish_shop_orders] => 1
+            [read_private_shop_orders] => 1
+            [delete_shop_orders] => 1
+            [delete_private_shop_orders] => 1
+            [delete_published_shop_orders] => 1
+            [delete_others_shop_orders] => 1
+            [edit_private_shop_orders] => 1
+            [edit_published_shop_orders] => 1
+            [manage_shop_order_terms] => 1
+            [edit_shop_order_terms] => 1
+            [delete_shop_order_terms] => 1
+            [assign_shop_order_terms] => 1
+            [edit_shop_coupon] => 1
+            [read_shop_coupon] => 1
+            [delete_shop_coupon] => 1
+            [edit_shop_coupons] => 1
+            [edit_others_shop_coupons] => 1
+            [publish_shop_coupons] => 1
+            [read_private_shop_coupons] => 1
+            [delete_shop_coupons] => 1
+            [delete_private_shop_coupons] => 1
+            [delete_published_shop_coupons] => 1
+            [delete_others_shop_coupons] => 1
+            [edit_private_shop_coupons] => 1
+            [edit_published_shop_coupons] => 1
+            [manage_shop_coupon_terms] => 1
+            [edit_shop_coupon_terms] => 1
+            [delete_shop_coupon_terms] => 1
+            [assign_shop_coupon_terms] => 1
+            [edit_shop_webhook] => 1
+            [read_shop_webhook] => 1
+            [delete_shop_webhook] => 1
+            [edit_shop_webhooks] => 1
+            [edit_others_shop_webhooks] => 1
+            [publish_shop_webhooks] => 1
+            [read_private_shop_webhooks] => 1
+            [delete_shop_webhooks] => 1
+            [delete_private_shop_webhooks] => 1
+            [delete_published_shop_webhooks] => 1
+            [delete_others_shop_webhooks] => 1
+            [edit_private_shop_webhooks] => 1
+            [edit_published_shop_webhooks] => 1
+            [manage_shop_webhook_terms] => 1
+            [edit_shop_webhook_terms] => 1
+            [delete_shop_webhook_terms] => 1
+            [assign_shop_webhook_terms] => 1
+            [manage_product_categories] => 1
+            [edit_product_categories] => 1
+            [delete_product_categories] => 1
+            [assign_product_categories] => 1
+            [manage_product_settings] => 1
+            [administrator] => 1
+        )
+
+    [filter] => 
+)
+
+payment_fields: display tokenization -> 1

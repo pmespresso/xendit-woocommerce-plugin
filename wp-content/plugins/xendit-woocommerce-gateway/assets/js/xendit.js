@@ -1,6 +1,6 @@
 /* global wc_xendit_params */
 Xendit.setPublishableKey( wc_xendit_params.key );
-console.log('PUBLISHABLE KEY, BITCH => ', Xendit._getPublishableKey());
+
 jQuery( function( $ ) {
 	'use strict';
 
@@ -109,7 +109,7 @@ jQuery( function( $ ) {
 		},
 
 		onSubmit: function( e ) {
-			console.log('ON SUBMIT BITCH');
+
 			if ( wc_xendit_form.isXenditChosen() && ! wc_xendit_form.hasToken()) {
 				e.preventDefault();
 				wc_xendit_form.block();
@@ -145,8 +145,6 @@ jQuery( function( $ ) {
 		createAuthentication: function(err, response) {
 			var token_id = response.id;
 
-			console.log("token assshole => ", token_id);
-
 			var data = {
 				"amount": total,
 				"token_id": token_id
@@ -157,12 +155,9 @@ jQuery( function( $ ) {
 		},
 
 		onAuthenticationResponse: function( err, response ) {
-
 			if (err) {
 					$( document ).trigger( 'xenditError', { err: err } );
 			}
-
-			console.log("authentication => ", response);
 			// token contains id, last4, and card type
 			var authentication_id = response.id;
 
